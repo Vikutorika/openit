@@ -80,22 +80,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: CDN
-      run: curl https://purge.jsdelivr.net/gh/yu-steven/openit@main/long
+      run: curl https://purge.jsdelivr.net/gh/Vikutorika/openit@main/long
   HTTPS: #jsDelivr HTTPS同步
     needs: my-job
     runs-on: ubuntu-latest
     steps:
     - name: CDN
-      run: curl https://purge.jsdelivr.net/gh/yu-steven/openit@main/https
+      run: curl https://purge.jsdelivr.net/gh/Vikutorika/openit@main/https
   Clash: #jsDelivr Clash同步
     needs: my-job
     runs-on: ubuntu-latest
     steps:
     - name: CDN
-      run: curl https://purge.jsdelivr.net/gh/yu-steven/openit@main/Clash.yaml
+      run: curl https://purge.jsdelivr.net/gh/Vikutorika/openit@main/Clash.yaml
   Quanx: #jsDelivr Quanx同步
     needs: my-job
     runs-on: ubuntu-latest
     steps:
     - name: CDN
-      run: curl https://purge.jsdelivr.net/gh/yu-steven/openit@main/Quanx.conf
+      run: curl https://purge.jsdelivr.net/gh/Vikutorika/openit@main/Quanx.conf
