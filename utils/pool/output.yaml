@@ -8,59 +8,73 @@ proxies:
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 2 SSS"
   server: 38.91.102.123
-  port: 9102
+  port: 5003
   type: ss
   cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
+  password: g5MeD6Ft3CWlJId
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 3 SSS"
-  server: 180.101.193.226
-  port: 10068
-  type: ss
-  cipher: aes-256-cfb
-  password: RsDk3peCSuo76B68
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 4 SSS"
   server: 14.29.124.168
-  port: 24006
+  port: 24007
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 5 SSS"
+- name: "\U0001F1F8\U0001F1EC SG 4 SSS"
+  server: agroup.node4.s.nodelist-gfwairport1.download
+  port: 50001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 5 TJN"
+  server: agroup.node4.t.nodelist-gfwairport1.download
+  port: 50001
+  type: trojan
+  password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 6 SSS"
   server: 13.215.49.89
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F1E9\U0001F1EA DE 6 SSS"
+- name: "\U0001F1EF\U0001F1F5 JP 7 SSS"
+  server: agroup.node1.s.nodelist-gfwairport1.download
+  port: 50001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 8 SSS"
+  server: 43.207.0.146
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: "\U0001F1E9\U0001F1EA DE 9 SSS"
   server: ak1342.free.www.outline.network
   port: 2375
   type: ss
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 7 TJN"
+- name: "\U0001F1EC\U0001F1E7 GB 10 TJN"
   server: content-provider4.cdn-delivery.akamaicd.com
   port: 443
   type: trojan
   password: shefelnak
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 8 SSS"
-  server: 43.201.19.179
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 9 SSS"
+- name: "\U0001F1F3\U0001F1F1 NL 11 SSS"
   server: 172.99.188.99
-  port: 3389
+  port: 8882
   type: ss
   cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  password: kDWvXYZoTBcGkC4
   udp: true
 proxy-groups:
 - name: automatic
@@ -69,12 +83,14 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 1 TJN"
   - "\U0001F1FA\U0001F1F8 US 2 SSS"
   - "\U0001F1E8\U0001F1F3 CN 3 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
-  - "\U0001F1F8\U0001F1EC SG 5 SSS"
-  - "\U0001F1E9\U0001F1EA DE 6 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 7 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 8 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 9 SSS"
+  - "\U0001F1F8\U0001F1EC SG 4 SSS"
+  - "\U0001F1F8\U0001F1EC SG 5 TJN"
+  - "\U0001F1F8\U0001F1EC SG 6 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 7 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 8 SSS"
+  - "\U0001F1E9\U0001F1EA DE 9 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 10 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 11 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -84,11 +100,13 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 1 TJN"
   - "\U0001F1FA\U0001F1F8 US 2 SSS"
   - "\U0001F1E8\U0001F1F3 CN 3 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
-  - "\U0001F1F8\U0001F1EC SG 5 SSS"
-  - "\U0001F1E9\U0001F1EA DE 6 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 7 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 8 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 9 SSS"
+  - "\U0001F1F8\U0001F1EC SG 4 SSS"
+  - "\U0001F1F8\U0001F1EC SG 5 TJN"
+  - "\U0001F1F8\U0001F1EC SG 6 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 7 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 8 SSS"
+  - "\U0001F1E9\U0001F1EA DE 9 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 10 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 11 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
