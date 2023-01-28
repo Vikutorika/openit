@@ -1,51 +1,35 @@
 proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 1 TJN"
   server: zf.shitoudata.top
+  port: 22242
+  type: trojan
+  password: c0dce5a0-e981-3aaa-9550-58eff40b2dcc
+  sni: us5.shitoudata.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 2 TJN"
+  server: zf.shitoudata.top
   port: 31613
   type: trojan
   password: c0dce5a0-e981-3aaa-9550-58eff40b2dcc
   sni: us1.pilor.net
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 2 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 3 SSS"
   server: 38.91.102.123
-  port: 9102
+  port: 9101
   type: ss
   cipher: aes-256-gcm
   password: e4FCWrgpkji3QY
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 3 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 4 TJN"
   server: 155.248.193.254
   port: 31853
   type: trojan
   password: jKRJgS7uvI
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 4 TJN"
-  server: hk.swiftfalcon.app
-  port: 28893
-  type: trojan
-  password: shenmegui
-  sni: hk.swiftfalcon.app
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 5 TJN"
-  server: zf.shitoudata.top
-  port: 42035
-  type: trojan
-  password: c0dce5a0-e981-3aaa-9550-58eff40b2dcc
-  sni: us3.pilor.net
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 6 TJN"
-  server: zf.shitoudata.top
-  port: 31070
-  type: trojan
-  password: c0dce5a0-e981-3aaa-9550-58eff40b2dcc
-  sni: us2.pilor.net
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 7 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 5 TJN"
   server: trny.ballistics.top
   port: 443
   type: trojan
@@ -53,14 +37,22 @@ proxies:
   sni: trny.ballistics.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 8 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 6 SSS"
   server: 180.101.193.226
   port: 10068
   type: ss
   cipher: aes-256-cfb
   password: RsDk3peCSuo76B68
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 9 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 7 TJN"
+  server: xzf.shitoudata.top
+  port: 36826
+  type: trojan
+  password: c0dce5a0-e981-3aaa-9550-58eff40b2dcc
+  sni: tw.shitoudata.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 8 TJN"
   server: xzf.shitoudata.top
   port: 32937
   type: trojan
@@ -68,53 +60,29 @@ proxies:
   sni: tw3.shitoudata.top
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 9 TJN"
+  server: zf.shitoudata.top
+  port: 63666
+  type: trojan
+  password: c0dce5a0-e981-3aaa-9550-58eff40b2dcc
+  sni: tw2.shitoudata.top
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 10 SSS"
   server: 14.29.124.168
-  port: 24001
+  port: 24009
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 11 TJN"
-  server: zf.shitoudata.top
-  port: 33561
-  type: trojan
-  password: c0dce5a0-e981-3aaa-9550-58eff40b2dcc
-  sni: sg1.pilor.net
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 12 TJN"
-  server: zf.shitoudata.top
-  port: 46005
-  type: trojan
-  password: c0dce5a0-e981-3aaa-9550-58eff40b2dcc
-  sni: sg4.shitoudata.top
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 13 TJN"
-  server: zf.shitoudata.top
-  port: 20322
-  type: trojan
-  password: c0dce5a0-e981-3aaa-9550-58eff40b2dcc
-  sni: sg2.pilor.net
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 14 SSS"
+- name: "\U0001F1F8\U0001F1EC SG 11 SSS"
   server: 13.215.49.89
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 15 TJN"
-  server: zf.shitoudata.top
-  port: 33561
-  type: trojan
-  password: c0dce5a0-e981-3aaa-9550-58eff40b2dcc
-  sni: sg1.pilor.net
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 16 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 12 TJN"
   server: trxjp.ballistics.top
   port: 443
   type: trojan
@@ -122,22 +90,7 @@ proxies:
   sni: trxjp.ballistics.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 17 TJN"
-  server: zf.shitoudata.top
-  port: 49340
-  type: trojan
-  password: c0dce5a0-e981-3aaa-9550-58eff40b2dcc
-  sni: jp4.shitoudata.top
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 18 SSS"
-  server: 43.207.82.53
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 19 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 13 TJN"
   server: zf.shitoudata.top
   port: 25167
   type: trojan
@@ -145,22 +98,14 @@ proxies:
   sni: jp2.shitoudata.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 20 TJN"
-  server: trxn.ballistics.top
-  port: 443
-  type: trojan
-  password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
-  sni: trxn.ballistics.top
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E9\U0001F1EA DE 21 SSS"
+- name: "\U0001F1E9\U0001F1EA DE 14 SSS"
   server: 193.108.118.34
   port: 2375
   type: ss
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
   udp: true
-- name: "\U0001F1E9\U0001F1EA DE 22 TJN"
+- name: "\U0001F1E9\U0001F1EA DE 15 TJN"
   server: trfg.ballistics.top
   port: 443
   type: trojan
@@ -168,7 +113,14 @@ proxies:
   sni: trfg.ballistics.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 23 TJN"
+- name: "\U0001F1EC\U0001F1E7 GB 16 TJN"
+  server: content-provider4.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: shefelnak
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 17 TJN"
   server: trld.ballistics.top
   port: 443
   type: trojan
@@ -176,29 +128,21 @@ proxies:
   sni: trld.ballistics.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 24 TJN"
-  server: zf.shitoudata.top
-  port: 50119
-  type: trojan
-  password: c0dce5a0-e981-3aaa-9550-58eff40b2dcc
-  sni: kr.shitoudata.top
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 25 SSS"
+- name: "\U0001F1F0\U0001F1F7 KR 18 SSS"
   server: 43.201.59.23
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 26 SSS"
+- name: "\U0001F1F3\U0001F1F1 NL 19 SSS"
   server: 172.99.188.99
-  port: 5004
+  port: 8882
   type: ss
   cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
+  password: kDWvXYZoTBcGkC4
   udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 27 TJN"
+- name: "\U0001F1F3\U0001F1F1 NL 20 TJN"
   server: trhl.ballistics.top
   port: 443
   type: trojan
@@ -206,37 +150,48 @@ proxies:
   sni: trhl.ballistics.top
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 21 TJN"
+  server: zf.shitoudata.top
+  port: 40798
+  type: trojan
+  password: c0dce5a0-e981-3aaa-9550-58eff40b2dcc
+  sni: thai.pilor.net
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 22 TJN"
+  server: zf.shitoudata.top
+  port: 10273
+  type: trojan
+  password: c0dce5a0-e981-3aaa-9550-58eff40b2dcc
+  sni: tr.shitoudata.top
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
-  - "\U0001F1FA\U0001F1F8 US 2 SSS"
-  - "\U0001F1FA\U0001F1F8 US 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 2 TJN"
+  - "\U0001F1FA\U0001F1F8 US 3 SSS"
   - "\U0001F1FA\U0001F1F8 US 4 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 5 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 6 TJN"
-  - "\U0001F1FA\U0001F1F8 US 7 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 8 SSS"
+  - "\U0001F1FA\U0001F1F8 US 5 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 6 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 7 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 8 TJN"
   - "\U0001F1E8\U0001F1F3 CN 9 TJN"
   - "\U0001F1E8\U0001F1F3 CN 10 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 11 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 12 TJN"
+  - "\U0001F1F8\U0001F1EC SG 11 SSS"
+  - "\U0001F1F8\U0001F1EC SG 12 TJN"
   - "\U0001F1E8\U0001F1F3 CN 13 TJN"
-  - "\U0001F1F8\U0001F1EC SG 14 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 15 TJN"
-  - "\U0001F1F8\U0001F1EC SG 16 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 17 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 18 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 19 TJN"
-  - "\U0001F1FA\U0001F1F8 US 20 TJN"
-  - "\U0001F1E9\U0001F1EA DE 21 SSS"
-  - "\U0001F1E9\U0001F1EA DE 22 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 23 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 24 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 25 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 26 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 27 TJN"
+  - "\U0001F1E9\U0001F1EA DE 14 SSS"
+  - "\U0001F1E9\U0001F1EA DE 15 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 16 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 17 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 18 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 19 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 20 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 21 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 22 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -244,31 +199,26 @@ proxy-groups:
   proxies:
   - automatic
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
-  - "\U0001F1FA\U0001F1F8 US 2 SSS"
-  - "\U0001F1FA\U0001F1F8 US 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 2 TJN"
+  - "\U0001F1FA\U0001F1F8 US 3 SSS"
   - "\U0001F1FA\U0001F1F8 US 4 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 5 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 6 TJN"
-  - "\U0001F1FA\U0001F1F8 US 7 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 8 SSS"
+  - "\U0001F1FA\U0001F1F8 US 5 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 6 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 7 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 8 TJN"
   - "\U0001F1E8\U0001F1F3 CN 9 TJN"
   - "\U0001F1E8\U0001F1F3 CN 10 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 11 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 12 TJN"
+  - "\U0001F1F8\U0001F1EC SG 11 SSS"
+  - "\U0001F1F8\U0001F1EC SG 12 TJN"
   - "\U0001F1E8\U0001F1F3 CN 13 TJN"
-  - "\U0001F1F8\U0001F1EC SG 14 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 15 TJN"
-  - "\U0001F1F8\U0001F1EC SG 16 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 17 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 18 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 19 TJN"
-  - "\U0001F1FA\U0001F1F8 US 20 TJN"
-  - "\U0001F1E9\U0001F1EA DE 21 SSS"
-  - "\U0001F1E9\U0001F1EA DE 22 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 23 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 24 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 25 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 26 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 27 TJN"
+  - "\U0001F1E9\U0001F1EA DE 14 SSS"
+  - "\U0001F1E9\U0001F1EA DE 15 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 16 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 17 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 18 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 19 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 20 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 21 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 22 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
