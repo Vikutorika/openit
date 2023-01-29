@@ -7,84 +7,86 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 2 SSS"
-  server: z4.810823.xyz
+  server: z1.810823.xyz
   port: 13001
   type: ss
   cipher: chacha20-ietf-poly1305
   password: c91e57d4-4e60-4083-8286-fa879ced7f56
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 3 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  server: hn.xiaohouzi.club
+  port: 14185
+  type: trojan
+  password: f52e6827-d087-3fd0-9c66-ef87874c69ba
+  sni: hktnew01.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  server: 211.99.96.118
+  port: 33922
+  type: ss
+  cipher: chacha20-ietf
+  password: HZGYR9
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 5 SSS"
   server: sz-hk-bgp-iplc.810823.xyz
   port: 13065
   type: ss
   cipher: chacha20-ietf-poly1305
   password: c91e57d4-4e60-4083-8286-fa879ced7f56
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 4 TJN"
-  server: 43.154.172.79
-  port: 10102
-  type: trojan
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 5 SSS"
-  server: 180.101.193.226
-  port: 10068
+- name: "\U0001F1E8\U0001F1F3 CN 6 SSS"
+  server: 14.29.124.168
+  port: 24006
   type: ss
-  cipher: aes-256-cfb
-  password: RsDk3peCSuo76B68
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 6 SSS"
-  server: 13.214.212.124
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 7 SSS"
-  server: 13.215.49.89
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 8 SSS"
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: c91e57d4-4e60-4083-8286-fa879ced7f56
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 9 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 7 SSS"
   server: z1.810823.xyz
   port: 13065
   type: ss
   cipher: chacha20-ietf-poly1305
   password: c91e57d4-4e60-4083-8286-fa879ced7f56
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 10 SSS"
-  server: z4.810823.xyz
+- name: "\U0001F1E8\U0001F1F3 CN 8 SSS"
+  server: sz-hk-bgp-iplc.810823.xyz
+  port: 13081
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 9 SSS"
+  server: z3.810823.xyz
   port: 13971
   type: ss
   cipher: chacha20-ietf-poly1305
   password: c91e57d4-4e60-4083-8286-fa879ced7f56
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 11 SSS"
-  server: z4.810823.xyz
+- name: "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  server: z2.810823.xyz
   port: 13049
   type: ss
   cipher: chacha20-ietf-poly1305
   password: c91e57d4-4e60-4083-8286-fa879ced7f56
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 12 SSS"
-  server: z4.810823.xyz
-  port: 13082
+- name: "\U0001F1EC\U0001F1E7 GB 11 TJN"
+  server: 88.150.137.177
+  port: 443
+  type: trojan
+  password: shefelnak
+  sni: content-provider4.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 12 SSS"
+  server: 43.201.48.212
+  port: 443
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  cipher: aes-256-cfb
+  password: amazonskr05
   udp: true
 - name: "\U0001F1F0\U0001F1F7 KR 13 SSS"
-  server: 43.201.55.160
+  server: 43.201.103.37
   port: 443
   type: ss
   cipher: aes-256-cfb
@@ -92,10 +94,10 @@ proxies:
   udp: true
 - name: "\U0001F1F3\U0001F1F1 NL 14 SSS"
   server: 172.99.188.99
-  port: 6379
+  port: 8882
   type: ss
   cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
+  password: kDWvXYZoTBcGkC4
   udp: true
 proxy-groups:
 - name: automatic
@@ -103,16 +105,16 @@ proxy-groups:
   proxies:
   - "\U0001F1FA\U0001F1F8 US 1 TJN"
   - "\U0001F1E8\U0001F1F3 CN 2 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 3 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 4 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
   - "\U0001F1E8\U0001F1F3 CN 5 SSS"
-  - "\U0001F1F8\U0001F1EC SG 6 SSS"
-  - "\U0001F1F8\U0001F1EC SG 7 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 6 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 7 SSS"
   - "\U0001F1E8\U0001F1F3 CN 8 SSS"
   - "\U0001F1E8\U0001F1F3 CN 9 SSS"
   - "\U0001F1E8\U0001F1F3 CN 10 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 11 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 11 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 12 SSS"
   - "\U0001F1F0\U0001F1F7 KR 13 SSS"
   - "\U0001F1F3\U0001F1F1 NL 14 SSS"
   url: https://www.google.com/favicon.ico
@@ -123,16 +125,16 @@ proxy-groups:
   - automatic
   - "\U0001F1FA\U0001F1F8 US 1 TJN"
   - "\U0001F1E8\U0001F1F3 CN 2 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 3 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 4 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
   - "\U0001F1E8\U0001F1F3 CN 5 SSS"
-  - "\U0001F1F8\U0001F1EC SG 6 SSS"
-  - "\U0001F1F8\U0001F1EC SG 7 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 6 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 7 SSS"
   - "\U0001F1E8\U0001F1F3 CN 8 SSS"
   - "\U0001F1E8\U0001F1F3 CN 9 SSS"
   - "\U0001F1E8\U0001F1F3 CN 10 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 11 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 11 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 12 SSS"
   - "\U0001F1F0\U0001F1F7 KR 13 SSS"
   - "\U0001F1F3\U0001F1F1 NL 14 SSS"
 rules:
