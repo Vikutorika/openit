@@ -15,11 +15,11 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 3 SSS"
-  server: sczx.bzlxzl.com
-  port: 57001
+  server: 180.101.193.226
+  port: 10068
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: R10N5j
+  cipher: aes-256-cfb
+  password: RsDk3peCSuo76B68
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 4 TJN"
   server: hnm.xiaohouzi.club
@@ -31,7 +31,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 5 SSS"
   server: 14.29.124.168
-  port: 24006
+  port: 24007
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
@@ -58,14 +58,7 @@ proxies:
   sni: trxjp.ballistics.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 9 SSS"
-  server: 43.206.224.222
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 10 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 9 TJN"
   server: trxn.ballistics.top
   port: 443
   type: trojan
@@ -73,7 +66,7 @@ proxies:
   sni: trxn.ballistics.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E9\U0001F1EA DE 11 TJN"
+- name: "\U0001F1E9\U0001F1EA DE 10 TJN"
   server: trfg.ballistics.top
   port: 443
   type: trojan
@@ -81,34 +74,20 @@ proxies:
   sni: trfg.ballistics.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 12 TJN"
+- name: "\U0001F1EC\U0001F1E7 GB 11 TJN"
   server: content-provider4.cdn-delivery.akamaicd.com
   port: 443
   type: trojan
   password: shefelnak
+  sni: content-provider4.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 13 TJN"
+- name: "\U0001F1EC\U0001F1E7 GB 12 TJN"
   server: trld.ballistics.top
   port: 443
   type: trojan
   password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
   sni: trld.ballistics.top
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 14 SSS"
-  server: 43.201.48.212
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 15 TJN"
-  server: trhl.ballistics.top
-  port: 443
-  type: trojan
-  password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
-  sni: trhl.ballistics.top
   skip-cert-verify: true
   udp: true
 proxy-groups:
@@ -123,13 +102,10 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 6 SSS"
   - "\U0001F1F8\U0001F1EC SG 7 SSS"
   - "\U0001F1F8\U0001F1EC SG 8 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 9 SSS"
-  - "\U0001F1FA\U0001F1F8 US 10 TJN"
-  - "\U0001F1E9\U0001F1EA DE 11 TJN"
+  - "\U0001F1FA\U0001F1F8 US 9 TJN"
+  - "\U0001F1E9\U0001F1EA DE 10 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 11 TJN"
   - "\U0001F1EC\U0001F1E7 GB 12 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 13 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 14 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 15 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -144,12 +120,9 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 6 SSS"
   - "\U0001F1F8\U0001F1EC SG 7 SSS"
   - "\U0001F1F8\U0001F1EC SG 8 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 9 SSS"
-  - "\U0001F1FA\U0001F1F8 US 10 TJN"
-  - "\U0001F1E9\U0001F1EA DE 11 TJN"
+  - "\U0001F1FA\U0001F1F8 US 9 TJN"
+  - "\U0001F1E9\U0001F1EA DE 10 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 11 TJN"
   - "\U0001F1EC\U0001F1E7 GB 12 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 13 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 14 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 15 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
