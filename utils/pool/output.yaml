@@ -11,20 +11,22 @@ proxies:
   port: 80
   type: trojan
   password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
+  sni: us2.trojanvh.xyz
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 3 TJN"
   server: us2.trojanvh.xyz
   port: 80
   type: trojan
-  password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
+  password: aa6eb272-1d8d-4461-9687-85ddbab1adb0
+  sni: us2.trojanvh.xyz
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 4 TJN"
   server: us2.trojanvh.xyz
   port: 80
   type: trojan
-  password: aa6eb272-1d8d-4461-9687-85ddbab1adb0
+  password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
   sni: us2.trojanvh.xyz
   skip-cert-verify: true
   udp: true
@@ -33,7 +35,6 @@ proxies:
   port: 80
   type: trojan
   password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
-  sni: us2.trojanvh.xyz
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 6 TJN"
@@ -41,15 +42,14 @@ proxies:
   port: 80
   type: trojan
   password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
-  sni: us2.trojanvh.xyz
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 7 TJN"
-  server: us2.trojanvh.xyz
-  port: 80
+  server: trny.ballistics.top
+  port: 443
   type: trojan
-  password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
-  sni: us2.trojanvh.xyz
+  password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
+  sni: trny.ballistics.top
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 8 TJN"
@@ -57,143 +57,50 @@ proxies:
   port: 80
   type: trojan
   password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
-  sni: us2.trojanvh.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 9 TJN"
-  server: us2.trojanvh.xyz
-  port: 80
-  type: trojan
-  password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
-  sni: us2.trojanvh.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 10 TJN"
-  server: us2.trojanvh.xyz
-  port: 80
-  type: trojan
-  password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 11 TJN"
-  server: us2.trojanvh.xyz
-  port: 80
-  type: trojan
-  password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
-  sni: us2.trojanvh.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 12 TJN"
-  server: us2.trojanvh.xyz
-  port: 80
-  type: trojan
-  password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 13 TJN"
-  server: us2.trojanvh.xyz
-  port: 80
-  type: trojan
-  password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 14 SSS"
-  server: 211.99.96.118
-  port: 33922
-  type: ss
-  cipher: chacha20-ietf
-  password: HZGYR9
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 15 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 9 SSS"
   server: 14.29.124.168
-  port: 24007
+  port: 24001
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 16 SSS"
-  server: 14.29.124.168
-  port: 24006
+- name: "\U0001F1F8\U0001F1EC SG 10 SSS"
+  server: 13.215.49.89
+  port: 443
   type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
+  cipher: aes-256-cfb
+  password: amazonskr05
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 17 SSS"
-  server: 14.29.124.168
-  port: 24006
+- name: "\U0001F1F8\U0001F1EC SG 11 SSS"
+  server: 13.215.49.89
+  port: 443
   type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
+  cipher: aes-256-cfb
+  password: amazonskr05
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 18 SSS"
-  server: 14.29.124.168
-  port: 24007
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 19 SSS"
-  server: 14.29.124.168
-  port: 24002
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 20 TJN"
-  server: content-provider4.cdn-delivery.akamaicd.com
+- name: "\U0001F1EC\U0001F1E7 GB 12 TJN"
+  server: trld.ballistics.top
   port: 443
   type: trojan
-  password: shefelnak
+  password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
+  sni: trld.ballistics.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 21 SSS"
-  server: 172.99.188.99
-  port: 8882
+- name: "\U0001F1F0\U0001F1F7 KR 13 SSS"
+  server: 43.201.55.160
+  port: 443
   type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
+  cipher: aes-256-cfb
+  password: amazonskr05
   udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 22 SSS"
-  server: 172.99.188.99
-  port: 3389
+- name: "\U0001F1F0\U0001F1F7 KR 14 SSS"
+  server: 43.201.55.160
+  port: 443
   type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 23 SSS"
-  server: 172.99.188.99
-  port: 5600
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 24 SSS"
-  server: 172.99.188.99
-  port: 8882
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 25 SSS"
-  server: 172.99.188.99
-  port: 5600
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 26 SSS"
-  server: 172.99.188.99
-  port: 5600
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 27 SSS"
-  server: 172.99.188.99
-  port: 6379
-  type: ss
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
+  cipher: aes-256-cfb
+  password: amazonskr05
   udp: true
 proxy-groups:
 - name: automatic
@@ -207,25 +114,12 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 6 TJN"
   - "\U0001F1FA\U0001F1F8 US 7 TJN"
   - "\U0001F1FA\U0001F1F8 US 8 TJN"
-  - "\U0001F1FA\U0001F1F8 US 9 TJN"
-  - "\U0001F1FA\U0001F1F8 US 10 TJN"
-  - "\U0001F1FA\U0001F1F8 US 11 TJN"
-  - "\U0001F1FA\U0001F1F8 US 12 TJN"
-  - "\U0001F1FA\U0001F1F8 US 13 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 14 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 15 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 16 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 17 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 18 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 19 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 20 TJN"
-  - "\U0001F1F3\U0001F1F1 NL 21 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 22 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 23 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 24 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 25 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 26 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 27 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 9 SSS"
+  - "\U0001F1F8\U0001F1EC SG 10 SSS"
+  - "\U0001F1F8\U0001F1EC SG 11 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 12 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 13 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 14 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -240,24 +134,11 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 6 TJN"
   - "\U0001F1FA\U0001F1F8 US 7 TJN"
   - "\U0001F1FA\U0001F1F8 US 8 TJN"
-  - "\U0001F1FA\U0001F1F8 US 9 TJN"
-  - "\U0001F1FA\U0001F1F8 US 10 TJN"
-  - "\U0001F1FA\U0001F1F8 US 11 TJN"
-  - "\U0001F1FA\U0001F1F8 US 12 TJN"
-  - "\U0001F1FA\U0001F1F8 US 13 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 14 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 15 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 16 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 17 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 18 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 19 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 20 TJN"
-  - "\U0001F1F3\U0001F1F1 NL 21 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 22 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 23 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 24 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 25 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 26 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 27 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 9 SSS"
+  - "\U0001F1F8\U0001F1EC SG 10 SSS"
+  - "\U0001F1F8\U0001F1EC SG 11 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 12 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 13 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 14 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
