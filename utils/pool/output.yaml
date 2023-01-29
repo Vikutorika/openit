@@ -1,24 +1,24 @@
 proxies:
 - name: "\U0001F1FA\U0001F1F8 US 1 TJN"
-  server: 155.248.193.254
-  port: 31853
-  type: trojan
-  password: jKRJgS7uvI
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 2 TJN"
   server: us2.trojanvh.xyz
   port: 80
   type: trojan
   password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 3 SSS"
-  server: 13.214.212.124
-  port: 443
+- name: "\U0001F1FA\U0001F1F8 US 2 TJN"
+  server: 155.248.193.254
+  port: 31853
+  type: trojan
+  password: jKRJgS7uvI
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 3 SSS"
+  server: 180.101.193.226
+  port: 10068
   type: ss
   cipher: aes-256-cfb
-  password: amazonskr05
+  password: RsDk3peCSuo76B68
   udp: true
 - name: "\U0001F1F8\U0001F1EC SG 4 SSS"
   server: 13.215.49.89
@@ -34,26 +34,27 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 6 SSS"
-  server: 43.207.0.146
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1E8\U0001F1E6 CA 7 SSS"
+- name: "\U0001F1E8\U0001F1E6 CA 6 SSS"
   server: 51.161.118.38
   port: 804
   type: ss
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: "\U0001F1E9\U0001F1EA DE 8 SSS"
+- name: "\U0001F1E9\U0001F1EA DE 7 SSS"
   server: 193.108.118.34
   port: 2375
   type: ss
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 8 TJN"
+  server: 51.38.71.175
+  port: 80
+  type: trojan
+  password: 211f5876-8c89-4d97-9004-ff16acddd506
+  sni: uk1.trojanvh.xyz
+  skip-cert-verify: true
   udp: true
 - name: "\U0001F1EC\U0001F1E7 GB 9 TJN"
   server: content-provider4.cdn-delivery.akamaicd.com
@@ -62,20 +63,12 @@ proxies:
   password: shefelnak
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 10 TJN"
-  server: 51.38.71.175
-  port: 80
-  type: trojan
-  password: 211f5876-8c89-4d97-9004-ff16acddd506
-  sni: uk1.trojanvh.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 11 SSS"
+- name: "\U0001F1F3\U0001F1F1 NL 10 SSS"
   server: 172.99.188.99
-  port: 5004
+  port: 8888
   type: ss
   cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
+  password: Y6R9pAtvxxzmGC
   udp: true
 proxy-groups:
 - name: automatic
@@ -83,15 +76,14 @@ proxy-groups:
   proxies:
   - "\U0001F1FA\U0001F1F8 US 1 TJN"
   - "\U0001F1FA\U0001F1F8 US 2 TJN"
-  - "\U0001F1F8\U0001F1EC SG 3 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 3 SSS"
   - "\U0001F1F8\U0001F1EC SG 4 SSS"
   - "\U0001F1EF\U0001F1F5 JP 5 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 6 SSS"
-  - "\U0001F1E8\U0001F1E6 CA 7 SSS"
-  - "\U0001F1E9\U0001F1EA DE 8 SSS"
+  - "\U0001F1E8\U0001F1E6 CA 6 SSS"
+  - "\U0001F1E9\U0001F1EA DE 7 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 8 TJN"
   - "\U0001F1EC\U0001F1E7 GB 9 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 10 TJN"
-  - "\U0001F1F3\U0001F1F1 NL 11 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 10 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -100,14 +92,13 @@ proxy-groups:
   - automatic
   - "\U0001F1FA\U0001F1F8 US 1 TJN"
   - "\U0001F1FA\U0001F1F8 US 2 TJN"
-  - "\U0001F1F8\U0001F1EC SG 3 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 3 SSS"
   - "\U0001F1F8\U0001F1EC SG 4 SSS"
   - "\U0001F1EF\U0001F1F5 JP 5 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 6 SSS"
-  - "\U0001F1E8\U0001F1E6 CA 7 SSS"
-  - "\U0001F1E9\U0001F1EA DE 8 SSS"
+  - "\U0001F1E8\U0001F1E6 CA 6 SSS"
+  - "\U0001F1E9\U0001F1EA DE 7 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 8 TJN"
   - "\U0001F1EC\U0001F1E7 GB 9 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 10 TJN"
-  - "\U0001F1F3\U0001F1F1 NL 11 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 10 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
