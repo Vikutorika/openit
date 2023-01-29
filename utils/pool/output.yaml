@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 2 SSS"
-  server: z4.810823.xyz
+  server: z1.810823.xyz
   port: 13001
   type: ss
   cipher: chacha20-ietf-poly1305
@@ -22,52 +22,66 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 4 SSS"
   server: 14.29.124.168
-  port: 24007
+  port: 24001
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 5 SSS"
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13081
+- name: "\U0001F1F8\U0001F1EC SG 5 SSS"
+  server: 13.214.212.124
+  port: 443
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  cipher: aes-256-cfb
+  password: amazonskr05
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 6 SSS"
-  server: z3.810823.xyz
-  port: 13081
+- name: "\U0001F1F8\U0001F1EC SG 6 SSS"
+  server: 13.215.49.89
+  port: 443
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  cipher: aes-256-cfb
+  password: amazonskr05
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 7 SSS"
-  server: z4.810823.xyz
-  port: 13971
+  server: z1.810823.xyz
+  port: 13081
   type: ss
   cipher: chacha20-ietf-poly1305
   password: c91e57d4-4e60-4083-8286-fa879ced7f56
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 8 SSS"
-  server: z3.810823.xyz
-  port: 13049
+  server: sz-hk-bgp-iplc.810823.xyz
+  port: 13081
   type: ss
   cipher: chacha20-ietf-poly1305
   password: c91e57d4-4e60-4083-8286-fa879ced7f56
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 9 SSS"
-  server: z4.810823.xyz
+  server: z2.810823.xyz
+  port: 13971
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  server: z1.810823.xyz
+  port: 13049
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  server: z2.810823.xyz
   port: 13082
   type: ss
   cipher: chacha20-ietf-poly1305
   password: c91e57d4-4e60-4083-8286-fa879ced7f56
   udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 10 SSS"
+- name: "\U0001F1F3\U0001F1F1 NL 12 SSS"
   server: 172.99.188.99
-  port: 8882
+  port: 5004
   type: ss
   cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
+  password: g5MeD6Ft3CWlJId
   udp: true
 proxy-groups:
 - name: automatic
@@ -77,12 +91,14 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 2 SSS"
   - "\U0001F1E8\U0001F1F3 CN 3 SSS"
   - "\U0001F1E8\U0001F1F3 CN 4 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 5 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 6 SSS"
+  - "\U0001F1F8\U0001F1EC SG 5 SSS"
+  - "\U0001F1F8\U0001F1EC SG 6 SSS"
   - "\U0001F1E8\U0001F1F3 CN 7 SSS"
   - "\U0001F1E8\U0001F1F3 CN 8 SSS"
   - "\U0001F1E8\U0001F1F3 CN 9 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 10 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 12 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -93,11 +109,13 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 2 SSS"
   - "\U0001F1E8\U0001F1F3 CN 3 SSS"
   - "\U0001F1E8\U0001F1F3 CN 4 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 5 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 6 SSS"
+  - "\U0001F1F8\U0001F1EC SG 5 SSS"
+  - "\U0001F1F8\U0001F1EC SG 6 SSS"
   - "\U0001F1E8\U0001F1F3 CN 7 SSS"
   - "\U0001F1E8\U0001F1F3 CN 8 SSS"
   - "\U0001F1E8\U0001F1F3 CN 9 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 10 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 12 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
