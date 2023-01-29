@@ -6,52 +6,78 @@ proxies:
   password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 2 SSS"
-  server: 13.214.212.124
+- name: "\U0001F1FA\U0001F1F8 US 2 TJN"
+  server: phxv101.jd0001.top
+  port: 44301
+  type: trojan
+  password: 6bb546f2-5528-31b2-8d8e-cf1eed4076a0
+  sni: phxv101.jd0001.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 3 SSS"
+  server: 14.29.124.168
+  port: 24006
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 4 SSS"
+  server: 13.215.49.89
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F1E8\U0001F1E6 CA 3 SSS"
+- name: "\U0001F1EF\U0001F1F5 JP 5 TJN"
+  server: osav101.jd0001.top
+  port: 44301
+  type: trojan
+  password: 6bb546f2-5528-31b2-8d8e-cf1eed4076a0
+  sni: osav101.jd0001.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 6 TJN"
+  server: tyov001.jd0001.top
+  port: 44303
+  type: trojan
+  password: 6bb546f2-5528-31b2-8d8e-cf1eed4076a0
+  sni: tyov001.jd0001.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1E6 CA 7 SSS"
   server: 51.161.118.38
   port: 804
   type: ss
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 4 TJN"
-  server: uk1.trojanvh.xyz
+- name: "\U0001F1EC\U0001F1E7 GB 8 TJN"
+  server: 51.38.71.175
   port: 80
   type: trojan
   password: 211f5876-8c89-4d97-9004-ff16acddd506
+  sni: uk1.trojanvh.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 5 TJN"
-  server: content-provider4.cdn-delivery.akamaicd.com
+- name: "\U0001F1EC\U0001F1E7 GB 9 TJN"
+  server: 88.150.137.177
   port: 443
   type: trojan
   password: shefelnak
   sni: content-provider4.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 6 SSS"
-  server: 43.201.103.37
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+- name: "\U0001F1F0\U0001F1F7 KR 10 TJN"
+  server: seoulv001.jd0001.top
+  port: 44303
+  type: trojan
+  password: 6bb546f2-5528-31b2-8d8e-cf1eed4076a0
+  sni: seoulv001.jd0001.top
+  skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 7 SSS"
-  server: 43.201.55.160
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 8 SSS"
+- name: "\U0001F1F3\U0001F1F1 NL 11 SSS"
   server: 172.99.188.99
-  port: 5003
+  port: 5004
   type: ss
   cipher: aes-256-gcm
   password: g5MeD6Ft3CWlJId
@@ -61,13 +87,16 @@ proxy-groups:
   type: url-test
   proxies:
   - "\U0001F1FA\U0001F1F8 US 1 TJN"
-  - "\U0001F1F8\U0001F1EC SG 2 SSS"
-  - "\U0001F1E8\U0001F1E6 CA 3 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 4 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 5 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 6 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 7 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 8 SSS"
+  - "\U0001F1FA\U0001F1F8 US 2 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 3 SSS"
+  - "\U0001F1F8\U0001F1EC SG 4 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 5 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 6 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 7 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 8 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 9 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 10 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 11 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -75,12 +104,15 @@ proxy-groups:
   proxies:
   - automatic
   - "\U0001F1FA\U0001F1F8 US 1 TJN"
-  - "\U0001F1F8\U0001F1EC SG 2 SSS"
-  - "\U0001F1E8\U0001F1E6 CA 3 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 4 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 5 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 6 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 7 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 8 SSS"
+  - "\U0001F1FA\U0001F1F8 US 2 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 3 SSS"
+  - "\U0001F1F8\U0001F1EC SG 4 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 5 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 6 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 7 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 8 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 9 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 10 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 11 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
