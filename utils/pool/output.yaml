@@ -6,13 +6,12 @@ proxies:
   password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 2 TJN"
-  server: zf.heigouyunzf.xyz
-  port: 38802
-  type: trojan
-  password: 6b3c20b0-5c33-4dc3-aed6-0383df60f48e
-  sni: mg1.heigouyunjd.xyz
-  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 2 SSS"
+  server: 180.101.193.226
+  port: 10068
+  type: ss
+  cipher: aes-256-cfb
+  password: RsDk3peCSuo76B68
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 3 SSS"
   server: 211.99.96.118
@@ -21,39 +20,21 @@ proxies:
   cipher: chacha20-ietf
   password: HZGYR9
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 4 TJN"
-  server: zf.heigouyunzf.xyz
-  port: 38801
+- name: "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  server: 14.29.124.168
+  port: 24006
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 5 TJN"
+  server: content-provider4.cdn-delivery.akamaicd.com
+  port: 443
   type: trojan
-  password: 6b3c20b0-5c33-4dc3-aed6-0383df60f48e
-  sni: xg1.heigouyunjd.xyz
+  password: shefelnak
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 5 TJN"
-  server: zf.heigouyunzf.xyz
-  port: 38805
-  type: trojan
-  password: 6b3c20b0-5c33-4dc3-aed6-0383df60f48e
-  sni: xg2.heigouyunjd.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 6 TJN"
-  server: zf.heigouyunzf.xyz
-  port: 38803
-  type: trojan
-  password: 6b3c20b0-5c33-4dc3-aed6-0383df60f48e
-  sni: tw1.heigouyunjd.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 7 TJN"
-  server: zf.heigouyunzf.xyz
-  port: 38804
-  type: trojan
-  password: 6b3c20b0-5c33-4dc3-aed6-0383df60f48e
-  sni: rb1.heigouyunjd.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 8 SSS"
+- name: "\U0001F1F3\U0001F1F1 NL 6 SSS"
   server: 172.99.188.99
   port: 8882
   type: ss
@@ -65,13 +46,11 @@ proxy-groups:
   type: url-test
   proxies:
   - "\U0001F1FA\U0001F1F8 US 1 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 2 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 2 SSS"
   - "\U0001F1E8\U0001F1F3 CN 3 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 4 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 5 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 6 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 7 TJN"
-  - "\U0001F1F3\U0001F1F1 NL 8 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 5 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 6 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -79,12 +58,10 @@ proxy-groups:
   proxies:
   - automatic
   - "\U0001F1FA\U0001F1F8 US 1 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 2 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 2 SSS"
   - "\U0001F1E8\U0001F1F3 CN 3 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 4 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 5 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 6 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 7 TJN"
-  - "\U0001F1F3\U0001F1F1 NL 8 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 5 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 6 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
