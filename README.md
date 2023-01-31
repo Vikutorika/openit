@@ -27,22 +27,18 @@
 
 
 **Base64**
-```https://openit.daycat.space/long```
+```https://cdn.bilicdn.tk/gh/Vikutorika/openit@main/long```
 
 **小火箭**
-```https://openit.daycat.space/https```
+```https://cdn.bilicdn.tk/gh/Vikutorika/openit@main/https```
 
 **Clash**
-```https://openit.daycat.space/clash```
-
-**Quanx**
-```https://openit.daycat.space/qx```
+```https://cdn.bilicdn.tk/gh/Vikutorika/openit@main/Clash.yaml```
 
 **不同订阅之间的区别**
 <br>**Base64** 订阅可在大多数翻墙软件中使用 
 <br>**小火箭** 订阅可在Shadowrocket中使用 
 <br>**Clash** 订阅可在Clash系列软件中使用 
-<br>**Quanx** 订阅可在Quantumult X中使用
 
 <!--**节点备注里**-->
 <!--<br>**N** = 完全解锁Netflix｜**N(-)** = 解锁Netflix自制剧  <br>**D** = Disney+｜**B** = B站港澳台｜**B(T)** = 台湾专属-->
