@@ -1575,6 +1575,97 @@ proxies:
   port: 5003
   password: g5MeD6Ft3CWlJId
   cipher: aes-256-gcm
+- name: "\U0001F1FA\U0001F1F8 US 227 TJN"
+  server: 148.59.74.184
+  port: 443
+  type: trojan
+  password: 0469291f-33cf-4909-aac2-265c22fe9e1e
+  sni: pcd462233.netvigator.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 228 TJN"
+  server: 148.59.74.186
+  port: 443
+  type: trojan
+  password: 0469291f-33cf-4909-aac2-265c22fe9e1e
+  sni: pcd462233.netvigator.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 229 TJN"
+  server: 148.59.74.185
+  port: 443
+  type: trojan
+  password: 0469291f-33cf-4909-aac2-265c22fe9e1e
+  sni: pcd462233.netvigator.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 230 TJN"
+  server: trny.ballistics.top
+  port: 443
+  type: trojan
+  password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 231 TJN"
+  server: u-s01.niuniucloud.xyz
+  port: 53028
+  type: trojan
+  password: 84232bc4-3e81-4324-82eb-e8440e60ba66
+  sni: niuniucloud.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 232 TJN"
+  server: s-g03.niuniucloud.xyz
+  port: 53040
+  type: trojan
+  password: 84232bc4-3e81-4324-82eb-e8440e60ba66
+  sni: niuniucloud.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 233 SSS"
+  server: j-p01.niuniucloud.xyz
+  port: 53044
+  type: ss
+  cipher: aes-128-gcm
+  password: 84232bc4-3e81-4324-82eb-e8440e60ba66
+  udp: true
+- name: "\U0001F1E9\U0001F1EA DE 234 TJN"
+  server: trfg.ballistics.top
+  port: 443
+  type: trojan
+  password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 235 TJN"
+  server: trld.ballistics.top
+  port: 443
+  type: trojan
+  password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 236 TJN"
+  server: k-r04.niuniucloud.xyz
+  port: 53026
+  type: trojan
+  password: 84232bc4-3e81-4324-82eb-e8440e60ba66
+  sni: niuniucloud.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F3\U0001F1F1 NL 237 TJN"
+  server: trhl.ballistics.top
+  port: 443
+  type: trojan
+  password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 238 TJN"
+  server: 141.11.127.230
+  port: 443
+  type: trojan
+  password: 0de0640b-d2e3-48d3-b528-7a1f8196ad75
+  sni: pcd462233.netvigator.com
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: automatic
   type: url-test
@@ -1805,6 +1896,18 @@ proxy-groups:
   - "\U0001F1E8\U0001F1E6 CA 224 SSS"
   - "\U0001F1FA\U0001F1F8 US 225 SSS"
   - "\U0001F1FA\U0001F1F8 US 226 SSS"
+  - "\U0001F1FA\U0001F1F8 US 227 TJN"
+  - "\U0001F1FA\U0001F1F8 US 228 TJN"
+  - "\U0001F1FA\U0001F1F8 US 229 TJN"
+  - "\U0001F1FA\U0001F1F8 US 230 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 231 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 232 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 233 SSS"
+  - "\U0001F1E9\U0001F1EA DE 234 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 235 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 236 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 237 TJN"
+  - "\U0001F1FA\U0001F1F8 US 238 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -2037,5 +2140,17 @@ proxy-groups:
   - "\U0001F1E8\U0001F1E6 CA 224 SSS"
   - "\U0001F1FA\U0001F1F8 US 225 SSS"
   - "\U0001F1FA\U0001F1F8 US 226 SSS"
+  - "\U0001F1FA\U0001F1F8 US 227 TJN"
+  - "\U0001F1FA\U0001F1F8 US 228 TJN"
+  - "\U0001F1FA\U0001F1F8 US 229 TJN"
+  - "\U0001F1FA\U0001F1F8 US 230 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 231 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 232 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 233 SSS"
+  - "\U0001F1E9\U0001F1EA DE 234 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 235 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 236 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 237 TJN"
+  - "\U0001F1FA\U0001F1F8 US 238 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
