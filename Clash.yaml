@@ -195,6 +195,7 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
+  - {name: SA 1 → openitsub.com, server: us.swiftfalcon.app, port: 8448, type: trojan, password: shenmegui, skip-cert-verify: true, udp: true}
   - {name: unknown 1 → openitsub.com, server: zhongzhuan01.kaochangonline.online, port: 12233, type: ss, cipher: chacha20-ietf-poly1305, password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3, udp: true}
   - {name: unknown 10 → openitsub.com, server: aliyun.install02.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: unknown 11 → openitsub.com, server: aliyun.install03.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -209,9 +210,7 @@ proxies:
   - {name: unknown 8 → openitsub.com, server: aliyun.install01.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: unknown 9 → openitsub.com, server: aliyun.moble.vnupgcn.cn, port: 9017, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 1 → openitsub.com, server: 129.154.61.32, port: 80, type: vmess, uuid: 93c8fd94-17de-4730-8977-d55e304e9a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA 1 → openitsub.com, server: tw2.microsoftjs.top, port: 443, type: trojan, password: f886f798-a42c-4461-a039-2faaf50e5461, sni: tls.microsoftjs.top, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA 2 → openitsub.com, server: tw3.microsoftjs.top, port: 443, type: trojan, password: 611c962b-2c3d-41ff-b354-310c8c8e089b, sni: tls.microsoftjs.top, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA 3 → openitsub.com, server: tw1.microsoftjs.top, port: 443, type: trojan, password: ed144187-d4f7-4c09-ac06-941c1e1cecfa, sni: tls.microsoftjs.top, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA 1 → openitsub.com, server: tw1.microsoftjs.top, port: 443, type: trojan, password: ed144187-d4f7-4c09-ac06-941c1e1cecfa, sni: tls.microsoftjs.top, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 1 → openitsub.com, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
   - {name: 🇨🇳 TW 1 → openitsub.com, server: fn600mliness018.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, udp: true}
   - {name: 🇨🇳 TW 2 → openitsub.com, server: fn600mliness019.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 61f301daaf4e, udp: true}
@@ -225,18 +224,14 @@ proxies:
   - {name: 🇯🇵 JP 1 → openitsub.com, server: 43-153-34-170.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 2 → openitsub.com, server: hk3.microsoftjs.top, port: 443, type: trojan, password: 8bafc7cf-2e92-4968-8967-a4cdd2b34d12, sni: tls.microsoftjs.top, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 1 → openitsub.com, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 10 → openitsub.com, server: kr3.microsoftjs.top, port: 50000, type: trojan, password: f886f798-a42c-4461-a039-2faaf50e5461, sni: tls.microsoftjs.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 11 → openitsub.com, server: fndxshk1000mline007.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fbf6ae5c0de, udp: true}
-  - {name: 🇺🇸 US 12 → openitsub.com, server: fndxshk1000mline003.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c3d44eb5b92f, udp: true}
-  - {name: 🇺🇸 US 13 → openitsub.com, server: fnhk1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 35b13f9dd755, udp: true}
   - {name: 🇺🇸 US 2 → openitsub.com, server: phxv001.jd0001.top, port: 44302, type: trojan, password: 4d111af8-5078-37e0-a583-34155f60b32c, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3 → openitsub.com, server: jp9.microsoftjs.top, port: 443, type: trojan, password: 8bafc7cf-2e92-4968-8967-a4cdd2b34d12, sni: tls.microsoftjs.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3 → openitsub.com, server: hk1.microsoftjs.top, port: 443, type: trojan, password: ed144187-d4f7-4c09-ac06-941c1e1cecfa, sni: tls.microsoftjs.top, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 4 → openitsub.com, server: jp8.microsoftjs.top, port: 443, type: trojan, password: 8bafc7cf-2e92-4968-8967-a4cdd2b34d12, sni: tls.microsoftjs.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5 → openitsub.com, server: 3.133.113.15, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6 → openitsub.com, server: hk1.microsoftjs.top, port: 443, type: trojan, password: ed144187-d4f7-4c09-ac06-941c1e1cecfa, sni: tls.microsoftjs.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 7 → openitsub.com, server: hk4.microsoftjs.top, port: 443, type: trojan, password: 8bafc7cf-2e92-4968-8967-a4cdd2b34d12, sni: tls.microsoftjs.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 8 → openitsub.com, server: osav101.jd0001.top, port: 44301, type: trojan, password: 6abfad5a-24be-3657-85da-ceac782b7e19, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 9 → openitsub.com, server: kr3.microsoftjs.top, port: 50001, type: trojan, password: 611c962b-2c3d-41ff-b354-310c8c8e089b, sni: tls.microsoftjs.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5 → openitsub.com, server: osav101.jd0001.top, port: 44301, type: trojan, password: 6abfad5a-24be-3657-85da-ceac782b7e19, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 6 → openitsub.com, server: kr3.microsoftjs.top, port: 50002, type: trojan, password: fe2d5a68-165d-44a6-b9d5-ab3175b621ee, sni: tls.microsoftjs.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 7 → openitsub.com, server: fndxshk1000mline007.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fbf6ae5c0de, udp: true}
+  - {name: 🇺🇸 US 8 → openitsub.com, server: fndxshk1000mline003.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c3d44eb5b92f, udp: true}
+  - {name: 🇺🇸 US 9 → openitsub.com, server: fnhk1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 35b13f9dd755, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -254,6 +249,7 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
+      - SA 1 → openitsub.com
       - unknown 1 → openitsub.com
       - unknown 10 → openitsub.com
       - unknown 11 → openitsub.com
@@ -269,8 +265,6 @@ proxy-groups:
       - unknown 9 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇦 CA 1 → openitsub.com
-      - 🇨🇦 CA 2 → openitsub.com
-      - 🇨🇦 CA 3 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
       - 🇨🇳 TW 1 → openitsub.com
       - 🇨🇳 TW 2 → openitsub.com
@@ -284,10 +278,6 @@ proxy-groups:
       - 🇯🇵 JP 1 → openitsub.com
       - 🇯🇵 JP 2 → openitsub.com
       - 🇺🇸 US 1 → openitsub.com
-      - 🇺🇸 US 10 → openitsub.com
-      - 🇺🇸 US 11 → openitsub.com
-      - 🇺🇸 US 12 → openitsub.com
-      - 🇺🇸 US 13 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
       - 🇺🇸 US 3 → openitsub.com
       - 🇺🇸 US 4 → openitsub.com
@@ -302,6 +292,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - SA 1 → openitsub.com
       - unknown 1 → openitsub.com
       - unknown 10 → openitsub.com
       - unknown 11 → openitsub.com
@@ -317,8 +308,6 @@ proxy-groups:
       - unknown 9 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇦 CA 1 → openitsub.com
-      - 🇨🇦 CA 2 → openitsub.com
-      - 🇨🇦 CA 3 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
       - 🇨🇳 TW 1 → openitsub.com
       - 🇨🇳 TW 2 → openitsub.com
@@ -332,10 +321,6 @@ proxy-groups:
       - 🇯🇵 JP 1 → openitsub.com
       - 🇯🇵 JP 2 → openitsub.com
       - 🇺🇸 US 1 → openitsub.com
-      - 🇺🇸 US 10 → openitsub.com
-      - 🇺🇸 US 11 → openitsub.com
-      - 🇺🇸 US 12 → openitsub.com
-      - 🇺🇸 US 13 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
       - 🇺🇸 US 3 → openitsub.com
       - 🇺🇸 US 4 → openitsub.com
@@ -367,10 +352,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇺🇸 US 1 → openitsub.com
-      - 🇺🇸 US 10 → openitsub.com
-      - 🇺🇸 US 11 → openitsub.com
-      - 🇺🇸 US 12 → openitsub.com
-      - 🇺🇸 US 13 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
       - 🇺🇸 US 3 → openitsub.com
       - 🇺🇸 US 4 → openitsub.com
@@ -408,10 +389,9 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
+      - SA 1 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇦 CA 1 → openitsub.com
-      - 🇨🇦 CA 2 → openitsub.com
-      - 🇨🇦 CA 3 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
       - 🇫🇷 FR 1 → openitsub.com
       - 🇬🇧 GB 1 → openitsub.com
@@ -421,6 +401,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - SA 1 → openitsub.com
       - unknown 1 → openitsub.com
       - unknown 10 → openitsub.com
       - unknown 11 → openitsub.com
@@ -436,8 +417,6 @@ proxy-groups:
       - unknown 9 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇦 CA 1 → openitsub.com
-      - 🇨🇦 CA 2 → openitsub.com
-      - 🇨🇦 CA 3 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
       - 🇨🇳 TW 1 → openitsub.com
       - 🇨🇳 TW 2 → openitsub.com
@@ -451,10 +430,6 @@ proxy-groups:
       - 🇯🇵 JP 1 → openitsub.com
       - 🇯🇵 JP 2 → openitsub.com
       - 🇺🇸 US 1 → openitsub.com
-      - 🇺🇸 US 10 → openitsub.com
-      - 🇺🇸 US 11 → openitsub.com
-      - 🇺🇸 US 12 → openitsub.com
-      - 🇺🇸 US 13 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
       - 🇺🇸 US 3 → openitsub.com
       - 🇺🇸 US 4 → openitsub.com
