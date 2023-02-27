@@ -195,7 +195,6 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: MZ 1 → openitsub.com, server: www.furbbs.top, port: 443, type: trojan, password: ef18607c, skip-cert-verify: true, udp: true}
   - {name: unknown 1 → openitsub.com, server: zhongzhuan01.kaochangonline.online, port: 12233, type: ss, cipher: chacha20-ietf-poly1305, password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3, udp: true}
   - {name: unknown 10 → openitsub.com, server: aliyun.install02.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: unknown 11 → openitsub.com, server: aliyun.install03.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -210,7 +209,8 @@ proxies:
   - {name: unknown 8 → openitsub.com, server: aliyun.install01.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: unknown 9 → openitsub.com, server: aliyun.moble.vnupgcn.cn, port: 9017, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 1 → openitsub.com, server: 129.154.61.32, port: 80, type: vmess, uuid: 93c8fd94-17de-4730-8977-d55e304e9a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 1 → openitsub.com, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: 🇨🇳 CN 1 → openitsub.com, server: hnyd.dzhum.com, port: 52414, type: trojan, password: 2ceafd77-8c4b-4d35-99c3-95e771c5f569, sni: jp2.ahualu.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 2 → openitsub.com, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
   - {name: 🇨🇳 TW 1 → openitsub.com, server: fn600mliness018.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, udp: true}
   - {name: 🇨🇳 TW 2 → openitsub.com, server: fn600mliness019.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 61f301daaf4e, udp: true}
   - {name: 🇨🇳 TW 3 → openitsub.com, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, udp: true}
@@ -219,14 +219,13 @@ proxies:
   - {name: 🇨🇳 TW 6 → openitsub.com, server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, udp: true}
   - {name: 🇩🇪 DE 1 → openitsub.com, server: pwa.persiankid.ir, port: 664, type: trojan, password: C6dPWXR0Y7, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FR 1 → openitsub.com, server: t3.teslacdn2.live, port: 443, type: trojan, password: e1c12e6f-a555-4ff8-b071-1e09dd5d91e6, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 1 → openitsub.com, server: uk1.trojanvh.xyz, port: 80, type: trojan, password: 211f5876-8c89-4d97-9004-ff16acddd506, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 2 → openitsub.com, server: 2.hg.kr.cat77.cloud, port: 8443, type: trojan, password: cd27884b-c5af-34ec-b75f-8248077818fe, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 1 → openitsub.com, server: 2.hg.kr.cat77.cloud, port: 8443, type: trojan, password: cd27884b-c5af-34ec-b75f-8248077818fe, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 1 → openitsub.com, server: 139.162.113.113, port: 443, type: trojan, password: a4b8293b-af60-4f1b-8572-dea4f5b6cdef, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 2 → openitsub.com, server: jp1.lianpi.xyz, port: 45127, type: trojan, password: 0e84ec99-7f8e-48a0-9c5b-f546f505e550, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 1 → openitsub.com, server: sgp-3.fuckjdieng.uk, port: 50100, type: trojan, password: 45197764-92e9-448d-ac5b-7092e7bed068, sni: sgp-3.fuckjdieng.uk, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1 → openitsub.com, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1 → openitsub.com, server: c.mg.us.cat77.cloud, port: 8646, type: trojan, password: cd27884b-c5af-34ec-b75f-8248077818fe, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 2 → openitsub.com, server: phxv001.jd0001.top, port: 44302, type: trojan, password: 4d111af8-5078-37e0-a583-34155f60b32c, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3 → openitsub.com, server: c.mg.us.cat77.cloud, port: 8646, type: trojan, password: cd27884b-c5af-34ec-b75f-8248077818fe, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3 → openitsub.com, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 4 → openitsub.com, server: osav101.jd0001.top, port: 44301, type: trojan, password: 6abfad5a-24be-3657-85da-ceac782b7e19, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 5 → openitsub.com, server: fndxshk1000mline007.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fbf6ae5c0de, udp: true}
   - {name: 🇺🇸 US 6 → openitsub.com, server: fndxshk1000mline003.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c3d44eb5b92f, udp: true}
@@ -248,7 +247,6 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - MZ 1 → openitsub.com
       - unknown 1 → openitsub.com
       - unknown 10 → openitsub.com
       - unknown 11 → openitsub.com
@@ -264,6 +262,7 @@ proxy-groups:
       - unknown 9 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 CN 2 → openitsub.com
       - 🇨🇳 TW 1 → openitsub.com
       - 🇨🇳 TW 2 → openitsub.com
       - 🇨🇳 TW 3 → openitsub.com
@@ -273,7 +272,6 @@ proxy-groups:
       - 🇩🇪 DE 1 → openitsub.com
       - 🇫🇷 FR 1 → openitsub.com
       - 🇬🇧 GB 1 → openitsub.com
-      - 🇬🇧 GB 2 → openitsub.com
       - 🇯🇵 JP 1 → openitsub.com
       - 🇯🇵 JP 2 → openitsub.com
       - 🇸🇬 SG 1 → openitsub.com
@@ -290,7 +288,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - MZ 1 → openitsub.com
       - unknown 1 → openitsub.com
       - unknown 10 → openitsub.com
       - unknown 11 → openitsub.com
@@ -306,6 +303,7 @@ proxy-groups:
       - unknown 9 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 CN 2 → openitsub.com
       - 🇨🇳 TW 1 → openitsub.com
       - 🇨🇳 TW 2 → openitsub.com
       - 🇨🇳 TW 3 → openitsub.com
@@ -315,7 +313,6 @@ proxy-groups:
       - 🇩🇪 DE 1 → openitsub.com
       - 🇫🇷 FR 1 → openitsub.com
       - 🇬🇧 GB 1 → openitsub.com
-      - 🇬🇧 GB 2 → openitsub.com
       - 🇯🇵 JP 1 → openitsub.com
       - 🇯🇵 JP 2 → openitsub.com
       - 🇸🇬 SG 1 → openitsub.com
@@ -333,6 +330,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 CN 2 → openitsub.com
   - name: 🇯🇵 日本节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -383,20 +381,18 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - MZ 1 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 CN 2 → openitsub.com
       - 🇩🇪 DE 1 → openitsub.com
       - 🇫🇷 FR 1 → openitsub.com
       - 🇬🇧 GB 1 → openitsub.com
-      - 🇬🇧 GB 2 → openitsub.com
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - MZ 1 → openitsub.com
       - unknown 1 → openitsub.com
       - unknown 10 → openitsub.com
       - unknown 11 → openitsub.com
@@ -412,6 +408,7 @@ proxy-groups:
       - unknown 9 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 CN 2 → openitsub.com
       - 🇨🇳 TW 1 → openitsub.com
       - 🇨🇳 TW 2 → openitsub.com
       - 🇨🇳 TW 3 → openitsub.com
@@ -421,7 +418,6 @@ proxy-groups:
       - 🇩🇪 DE 1 → openitsub.com
       - 🇫🇷 FR 1 → openitsub.com
       - 🇬🇧 GB 1 → openitsub.com
-      - 🇬🇧 GB 2 → openitsub.com
       - 🇯🇵 JP 1 → openitsub.com
       - 🇯🇵 JP 2 → openitsub.com
       - 🇸🇬 SG 1 → openitsub.com
