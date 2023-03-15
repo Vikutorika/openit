@@ -652,20 +652,19 @@ proxies:
   password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 95 TJN"
-  server: hk1.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou
-  port: 443
-  type: trojan
-  password: 13167d4e-1af8-4369-927f-248ac9d3d5d7
-  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 95 SSS"
+  server: gdyd.aikun.online
+  port: 11698
+  type: ss
+  cipher: aes-128-gcm
+  password: ead1716b-06ab-4230-bd45-e231dd273388
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 96 TJN"
-  server: 120.241.255.196
-  port: 41687
-  type: trojan
-  password: 74341a38-c634-492e-9385-50eb01dd59e4
-  sni: 120.241.255.196
-  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 96 SSS"
+  server: gdyd.aikun.online
+  port: 11698
+  type: ss
+  cipher: aes-128-gcm
+  password: ead1716b-06ab-4230-bd45-e231dd273388
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 97 SSS"
   server: gdyd.aikun.online
@@ -676,26 +675,49 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 98 SSS"
   server: gdyd.aikun.online
-  port: 11698
-  type: ss
-  cipher: aes-128-gcm
-  password: ead1716b-06ab-4230-bd45-e231dd273388
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 99 SSS"
-  server: gdyd.aikun.online
   port: 34674
   type: ss
   cipher: aes-128-gcm
   password: ead1716b-06ab-4230-bd45-e231dd273388
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 100 SSS"
-  server: gdyd.aikun.online
-  port: 11698
-  type: ss
-  cipher: aes-128-gcm
-  password: ead1716b-06ab-4230-bd45-e231dd273388
+- name: "\U0001F1E8\U0001F1F3 CN 99 TJN"
+  server: 120.241.255.196
+  port: 41687
+  type: trojan
+  password: 74341a38-c634-492e-9385-50eb01dd59e4
+  sni: 120.241.255.196
+  skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 101 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 100 SSS"
+  server: 180.101.193.226
+  port: 10068
+  type: ss
+  cipher: aes-256-cfb
+  password: RsDk3peCSuo76B68
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 101 SSS"
+  server: hkc.101cloud.xyz
+  port: 18883
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2a320cca-7809-4ff6-9c9f-9336bece96ef
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 102 SSS"
+  server: hkd.101cloud.xyz
+  port: 18884
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2a320cca-7809-4ff6-9c9f-9336bece96ef
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 HK 103 TJN"
+  server: download1hgc.windowsupdate.lol
+  port: 443
+  type: trojan
+  password: 19aecb41-12fb-4203-be0f-8bf055a01adf
+  sni: dc3-download.windowsupdate1.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 HK 104 TJN"
   server: download2hkt.windowsupdate.lol
   port: 443
   type: trojan
@@ -703,35 +725,21 @@ proxies:
   sni: dc3-download.windowsupdate1.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 102 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 105 SSS"
   server: hkc.101cloud.xyz
   port: 18883
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 2a320cca-7809-4ff6-9c9f-9336bece96ef
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 103 SSS"
-  server: hkd.101cloud.xyz
-  port: 18884
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2a320cca-7809-4ff6-9c9f-9336bece96ef
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 104 SSS"
-  server: gdyd.aikun.online
-  port: 36253
-  type: ss
-  cipher: aes-128-gcm
-  password: ead1716b-06ab-4230-bd45-e231dd273388
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 105 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 106 SSS"
   server: 14.29.124.168
-  port: 24000
+  port: 24007
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: "\U0001F1F9\U0001F1FC TW 106 TJN"
+- name: "\U0001F1F9\U0001F1FC TW 107 TJN"
   server: kcdtw1-tg-data.amazonwebservicess.com
   port: 443
   type: trojan
@@ -739,14 +747,21 @@ proxies:
   sni: data.amazonwebservicess.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 107 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 108 SSS"
+  server: gdyd.aikun.online
+  port: 36253
+  type: ss
+  cipher: aes-128-gcm
+  password: ead1716b-06ab-4230-bd45-e231dd273388
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 109 SSS"
   server: twb.101cloud.xyz
   port: 31882
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 2a320cca-7809-4ff6-9c9f-9336bece96ef
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 108 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 110 TJN"
   server: s-sg01.aikun.online
   port: 10000
   type: trojan
@@ -754,28 +769,21 @@ proxies:
   sni: s-sg01.aikun.online
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 109 SSS"
-  server: sgb.101cloud.xyz
-  port: 13882
+- name: "\U0001F1F8\U0001F1EC SG 111 SSS"
+  server: 3.1.6.229
+  port: 443
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2a320cca-7809-4ff6-9c9f-9336bece96ef
+  cipher: aes-256-cfb
+  password: amazonskr05
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 110 SSS"
-  server: sgb.101cloud.xyz
-  port: 13882
+- name: "\U0001F1F8\U0001F1EC SG 112 SSS"
+  server: 13.229.122.56
+  port: 443
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2a320cca-7809-4ff6-9c9f-9336bece96ef
+  cipher: aes-256-cfb
+  password: amazonskr05
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 111 SSS"
-  server: sgb.101cloud.xyz
-  port: 13882
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2a320cca-7809-4ff6-9c9f-9336bece96ef
-  udp: true
-- name: "\U0001F1F2\U0001F1F4 MO 112 TJN"
+- name: "\U0001F1F2\U0001F1F4 MO 113 TJN"
   server: 45.64.22.56
   port: 443
   type: trojan
@@ -783,22 +791,42 @@ proxies:
   sni: trojan-ctb-sg01.globalssh.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 113 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 114 SSS"
   server: sgb.101cloud.xyz
   port: 13882
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 2a320cca-7809-4ff6-9c9f-9336bece96ef
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 114 TJN"
-  server: s-2jp02.aikun.online
-  port: 20001
-  type: trojan
-  password: ead1716b-06ab-4230-bd45-e231dd273388
-  sni: s-2jp02.aikun.online
-  skip-cert-verify: true
-  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 115 SSS"
+  server: sgb.101cloud.xyz
+  port: 13882
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2a320cca-7809-4ff6-9c9f-9336bece96ef
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 116 SSS"
+  server: sgc.101cloud.xyz
+  port: 46881
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2a320cca-7809-4ff6-9c9f-9336bece96ef
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 117 SSS"
+  server: sgc.101cloud.xyz
+  port: 46881
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2a320cca-7809-4ff6-9c9f-9336bece96ef
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 118 SSS"
+  server: gdyd.aikun.online
+  port: 11079
+  type: ss
+  cipher: aes-128-gcm
+  password: ead1716b-06ab-4230-bd45-e231dd273388
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 119 SSS"
   server: sa.unlimitedtraffic.top
   port: 25881
   type: ss
@@ -903,27 +931,31 @@ proxy-groups:
   - "\U0001F1E8\U0001F1E6 CA 92 SSS"
   - "\U0001F1FA\U0001F1F8 US 93 SSS"
   - "\U0001F1FA\U0001F1F8 US 94 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 95 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 96 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 95 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 96 SSS"
   - "\U0001F1E8\U0001F1F3 CN 97 SSS"
   - "\U0001F1E8\U0001F1F3 CN 98 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 99 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 99 TJN"
   - "\U0001F1E8\U0001F1F3 CN 100 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 101 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 101 SSS"
   - "\U0001F1E8\U0001F1F3 CN 102 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 103 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 104 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 103 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 104 TJN"
   - "\U0001F1E8\U0001F1F3 CN 105 SSS"
-  - "\U0001F1F9\U0001F1FC TW 106 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 107 SSS"
-  - "\U0001F1F8\U0001F1EC SG 108 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 106 SSS"
+  - "\U0001F1F9\U0001F1FC TW 107 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 108 SSS"
   - "\U0001F1E8\U0001F1F3 CN 109 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 110 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 111 SSS"
-  - "\U0001F1F2\U0001F1F4 MO 112 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 113 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 114 TJN"
+  - "\U0001F1F8\U0001F1EC SG 110 TJN"
+  - "\U0001F1F8\U0001F1EC SG 111 SSS"
+  - "\U0001F1F8\U0001F1EC SG 112 SSS"
+  - "\U0001F1F2\U0001F1F4 MO 113 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 114 SSS"
   - "\U0001F1E8\U0001F1F3 CN 115 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 116 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 117 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 118 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 119 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -1024,26 +1056,30 @@ proxy-groups:
   - "\U0001F1E8\U0001F1E6 CA 92 SSS"
   - "\U0001F1FA\U0001F1F8 US 93 SSS"
   - "\U0001F1FA\U0001F1F8 US 94 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 95 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 96 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 95 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 96 SSS"
   - "\U0001F1E8\U0001F1F3 CN 97 SSS"
   - "\U0001F1E8\U0001F1F3 CN 98 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 99 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 99 TJN"
   - "\U0001F1E8\U0001F1F3 CN 100 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 101 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 101 SSS"
   - "\U0001F1E8\U0001F1F3 CN 102 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 103 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 104 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 103 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 104 TJN"
   - "\U0001F1E8\U0001F1F3 CN 105 SSS"
-  - "\U0001F1F9\U0001F1FC TW 106 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 107 SSS"
-  - "\U0001F1F8\U0001F1EC SG 108 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 106 SSS"
+  - "\U0001F1F9\U0001F1FC TW 107 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 108 SSS"
   - "\U0001F1E8\U0001F1F3 CN 109 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 110 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 111 SSS"
-  - "\U0001F1F2\U0001F1F4 MO 112 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 113 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 114 TJN"
+  - "\U0001F1F8\U0001F1EC SG 110 TJN"
+  - "\U0001F1F8\U0001F1EC SG 111 SSS"
+  - "\U0001F1F8\U0001F1EC SG 112 SSS"
+  - "\U0001F1F2\U0001F1F4 MO 113 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 114 SSS"
   - "\U0001F1E8\U0001F1F3 CN 115 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 116 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 117 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 118 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 119 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
