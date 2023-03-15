@@ -673,40 +673,44 @@ proxies:
   password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 98 SSS"
-  server: v3-us.aliyun-obsd.xyz
-  port: 5632
-  type: ss
-  cipher: aes-128-gcm
-  password: f2ae2629-89da-452f-b1f6-544666600bb4
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 99 SSS"
-  server: 180.101.193.226
-  port: 10068
-  type: ss
-  cipher: aes-256-cfb
-  password: RsDk3peCSuo76B68
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 100 TJN"
-  server: 120.241.255.196
-  port: 41687
+- name: "\U0001F1E8\U0001F1F3 CN 98 TJN"
+  server: hogzyd.fosi.hk
+  port: 45751
   type: trojan
-  password: 74341a38-c634-492e-9385-50eb01dd59e4
-  sni: 120.241.255.196
+  password: a173def7-1369-499a-9b0d-fe9ef7deb258
+  sni: data-us.steamdownload.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 101 SSS"
-  server: 14.29.124.168
-  port: 24000
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
+- name: "\U0001F1E8\U0001F1F3 CN 99 TJN"
+  server: hogzyd.fosi.hk
+  port: 45751
+  type: trojan
+  password: a173def7-1369-499a-9b0d-fe9ef7deb258
+  sni: data-us.steamdownload.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 100 TJN"
+  server: hnm.xiaohouzi.club
+  port: 27482
+  type: trojan
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  sni: $$$hnm.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 HK 101 TJN"
+  server: dl-hk6.steamdownload.top
+  port: 443
+  type: trojan
+  password: a173def7-1369-499a-9b0d-fe9ef7deb258
+  sni: data-hk.steamdownload.top
+  skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 102 TJN"
-  server: 106.225.132.4
-  port: 19219
+  server: sa.steamdownload.top
+  port: 45711
   type: trojan
-  password: 0b86d368-f585-3c89-b8b5-30630f54cf15
+  password: a173def7-1369-499a-9b0d-fe9ef7deb258
+  sni: data-hk.steamdownload.top
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F9\U0001F1FC TW 103 TJN"
@@ -725,15 +729,38 @@ proxies:
   sni: tw2.microsoftjs.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 105 TJN"
-  server: jp7.lianpi.xyz
-  port: 53638
-  type: trojan
-  password: 5d651d8c-d5b3-418b-a3ea-55171af5b726
-  sni: jp7.lianpi.xyz
-  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 105 SSS"
+  server: 14.29.124.168
+  port: 24008
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 106 TJN"
+  server: sa.steamdownload.top
+  port: 45721
+  type: trojan
+  password: a173def7-1369-499a-9b0d-fe9ef7deb258
+  sni: data-tw.xn--vur082k.cc
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 107 TJN"
+  server: sa.steamdownload.top
+  port: 45741
+  type: trojan
+  password: a173def7-1369-499a-9b0d-fe9ef7deb258
+  sni: data-sg.steamdownload.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 108 TJN"
+  server: sa.steamdownload.top
+  port: 45743
+  type: trojan
+  password: a173def7-1369-499a-9b0d-fe9ef7deb258
+  sni: data-sg.steamdownload.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 109 TJN"
   server: lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou
   port: 12343
   type: trojan
@@ -741,7 +768,31 @@ proxies:
   sni: uwayvbjlshiuxaw.vzwzasc.cn
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 107 SSS"
+- name: "\U0001F1EF\U0001F1F5 JP 110 TJN"
+  server: jp7.lianpi.xyz
+  port: 53638
+  type: trojan
+  password: 5d651d8c-d5b3-418b-a3ea-55171af5b726
+  sni: jp7.lianpi.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 111 TJN"
+  server: hogzyd.fosi.hk
+  port: 45733
+  type: trojan
+  password: a173def7-1369-499a-9b0d-fe9ef7deb258
+  sni: data-jp.steamdownload.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 112 TJN"
+  server: hogzyd.fosi.hk
+  port: 45732
+  type: trojan
+  password: a173def7-1369-499a-9b0d-fe9ef7deb258
+  sni: data-jp.steamdownload.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 113 SSS"
   server: sa.unlimitedtraffic.top
   port: 25881
   type: ss
@@ -849,16 +900,22 @@ proxy-groups:
   - "\U0001F1E8\U0001F1E6 CA 95 SSS"
   - "\U0001F1FA\U0001F1F8 US 96 SSS"
   - "\U0001F1FA\U0001F1F8 US 97 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 98 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 99 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 98 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 99 TJN"
   - "\U0001F1E8\U0001F1F3 CN 100 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 101 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 101 TJN"
   - "\U0001F1E8\U0001F1F3 CN 102 TJN"
   - "\U0001F1F9\U0001F1FC TW 103 TJN"
   - "\U0001F1F9\U0001F1FC TW 104 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 105 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 105 SSS"
   - "\U0001F1E8\U0001F1F3 CN 106 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 107 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 107 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 108 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 109 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 110 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 111 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 112 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 113 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -962,15 +1019,21 @@ proxy-groups:
   - "\U0001F1E8\U0001F1E6 CA 95 SSS"
   - "\U0001F1FA\U0001F1F8 US 96 SSS"
   - "\U0001F1FA\U0001F1F8 US 97 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 98 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 99 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 98 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 99 TJN"
   - "\U0001F1E8\U0001F1F3 CN 100 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 101 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 101 TJN"
   - "\U0001F1E8\U0001F1F3 CN 102 TJN"
   - "\U0001F1F9\U0001F1FC TW 103 TJN"
   - "\U0001F1F9\U0001F1FC TW 104 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 105 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 105 SSS"
   - "\U0001F1E8\U0001F1F3 CN 106 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 107 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 107 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 108 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 109 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 110 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 111 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 112 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 113 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
