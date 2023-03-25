@@ -677,25 +677,25 @@ proxies:
   password: kDWvXYZoTBcGkC4
   cipher: aes-256-gcm
 - name: "\U0001F1FA\U0001F1F8 US 98 SSS"
-  server: 167.88.63.79
-  port: 8009
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 99 SSS"
-  server: 38.121.43.65
-  port: 2375
-  type: ss
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 100 SSS"
   server: 169.197.141.187
   port: 5003
   type: ss
   cipher: aes-256-gcm
   password: g5MeD6Ft3CWlJId
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 99 SSS"
+  server: 38.64.138.145
+  port: 8080
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 100 SSS"
+  server: 167.88.63.44
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 101 SSS"
   server: 38.68.135.18
@@ -705,432 +705,208 @@ proxies:
   password: FoOiGlkAA9yPEGP
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 102 SSS"
-  server: 167.88.63.44
-  port: 7001
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 103 SSS"
-  server: 38.91.102.74
-  port: 5000
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 104 SSS"
-  server: 38.91.107.66
-  port: 8091
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 105 SSS"
-  server: 167.88.61.213
-  port: 7307
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 106 SSS"
-  server: 38.64.138.145
-  port: 7001
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 107 SSS"
-  server: 167.88.63.59
-  port: 6679
-  type: ss
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 108 SSS"
-  server: 169.197.141.14
-  port: 7002
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 109 SSS"
-  server: 38.114.114.19
-  port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 110 SSS"
   server: 169.197.142.48
   port: 8882
   type: ss
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 111 TJN"
-  server: h.mg.us.cat77.cloud
-  port: 2255
+- name: "\U0001F1FA\U0001F1F8 US 103 TJN"
+  server: 64.190.90.29
+  port: 443
   type: trojan
-  password: cd27884b-c5af-34ec-b75f-8248077818fe
-  sni: h.mg.us.cat77.cloud
+  password: b8ec1401-e5c1-4299-b315-9694cca0c2f8
+  sni: wx.qq.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 112 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 104 SSS"
+  server: 167.88.63.79
+  port: 8881
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 105 SSS"
+  server: 38.121.43.65
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 106 SSS"
+  server: 38.75.136.21
+  port: 5003
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 107 SSS"
+  server: 3.1.50.20
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 108 SSS"
+  server: 13.213.55.42
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 109 SSS"
   server: 139.162.5.19
   port: 8099
   type: ss
   cipher: aes-256-cfb
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 113 SSS"
-  server: 185.160.26.91
-  port: 1663
+- name: "\U0001F1F8\U0001F1EC SG 110 SSS"
+  server: 139.162.41.174
+  port: 8099
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Xs9ORT4j65b8HreZrg0p
+  cipher: aes-256-cfb
+  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 114 SSS"
-  server: 13.113.190.143
+- name: "\U0001F1F8\U0001F1EC SG 111 SSS"
+  server: 13.212.38.125
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 112 SSS"
+  server: 43.207.66.60
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 113 SSS"
+  server: 85.208.108.94
+  port: 8000
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 114 SSS"
+  server: 185.160.26.91
+  port: 1664
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Xs9ORT4j65b8HreZrg0p
+  udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 115 SSS"
-  server: 85.208.108.60
-  port: 5003
+  server: 85.208.108.21
+  port: 5004
   type: ss
   cipher: aes-256-gcm
   password: g5MeD6Ft3CWlJId
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 116 SSS"
-  server: 18.176.60.233
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 117 SSS"
-  server: 85.208.108.18
-  port: 8009
+  server: 85.208.108.60
+  port: 2376
   type: ss
   cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
+  password: faBAoD54k87UJG7
   udp: true
-- name: "\U0001F1E7\U0001F1EC BG 118 TJN"
-  server: 1.bjly.cat77.cloud
-  port: 2222
-  type: trojan
-  password: cd27884b-c5af-34ec-b75f-8248077818fe
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1E6 CA 119 SSS"
+- name: "\U0001F1E8\U0001F1E6 CA 117 SSS"
   server: 134.195.196.107
   port: 5600
   type: ss
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: "\U0001F1E8\U0001F1E6 CA 120 SSS"
+- name: "\U0001F1E8\U0001F1E6 CA 118 SSS"
   server: 134.195.196.149
-  port: 8080
+  port: 8090
   type: ss
   cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
+  password: PCnnH6SQSnfoS27
   udp: true
-- name: "\U0001F1E8\U0001F1E6 CA 121 SSS"
+- name: "\U0001F1E8\U0001F1E6 CA 119 SSS"
   server: 134.195.196.230
   port: 8882
   type: ss
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
   udp: true
-- name: "\U0001F1E8\U0001F1E6 CA 122 SSS"
-  server: 134.195.196.178
-  port: 806
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: "\U0001F1E8\U0001F1E6 CA 123 SSS"
-  server: 134.195.198.95
-  port: 8080
-  type: ss
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-  udp: true
-- name: "\U0001F1E8\U0001F1ED CH 124 SSS"
-  server: 156.146.62.160
-  port: 443
-  type: ss
-  cipher: aes-128-cfb
-  password: shadowsocks
-  udp: true
-- name: "\U0001F1E9\U0001F1EA DE 125 SSS"
-  server: 193.108.117.75
-  port: 8881
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 126 SSS"
-  server: 145.239.1.100
-  port: 8080
-  type: ss
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 127 SSS"
-  server: 51.38.112.84
-  port: 44
-  type: ss
-  cipher: aes-256-cfb
-  password: instgram.com/openvpnssh
-  udp: true
-- name: "\U0001F1E9\U0001F1EA DE 128 SSS"
-  server: 193.108.118.79
-  port: 8090
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  udp: true
-- name: "\U0001F1E9\U0001F1EA DE 129 SSS"
+- name: "\U0001F1E9\U0001F1EA DE 120 SSS"
   server: 193.108.118.34
   port: 2376
   type: ss
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
   udp: true
-- name: "\U0001F1E9\U0001F1EA DE 130 TJN"
-  server: b.dg.cat77.cloud
-  port: 5678
-  type: trojan
-  password: cd27884b-c5af-34ec-b75f-8248077818fe
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E9\U0001F1EA DE 131 SSS"
-  server: 193.108.117.24
-  port: 8080
+- name: "\U0001F1E9\U0001F1EA DE 121 SSS"
+  server: 193.108.117.75
+  port: 8881
   type: ss
   cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
+  password: kDWvXYZoTBcGkC4
   udp: true
-- name: "\U0001F1E9\U0001F1EA DE 132 SSS"
-  server: 193.108.118.36
-  port: 8080
-  type: ss
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-  udp: true
-- name: "\U0001F1E9\U0001F1EA DE 133 SSS"
-  server: 167.86.116.89
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: srt1xudOe3tF
-  udp: true
-- name: "\U0001F1E9\U0001F1EA DE 134 SSS"
-  server: 178.18.244.2
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 97OnDEZYGja4
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 135 SSS"
-  server: 149.202.82.172
+- name: "\U0001F1EB\U0001F1F7 FR 122 SSS"
+  server: 195.154.200.150
   port: 2376
   type: ss
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 136 SSS"
-  server: 195.154.200.150
-  port: 9101
-  type: ss
-  cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 137 SSS"
-  server: 62.210.222.195
-  port: 8000
-  type: ss
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 138 SSS"
-  server: 95.142.161.114
-  port: 855
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: bhcoDfavlz5r
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 139 SSS"
-  server: 212.102.53.194
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 140 SSS"
-  server: 212.102.53.195
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 141 SSS"
-  server: 212.38.189.174
-  port: 7307
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 142 SSS"
-  server: 172.99.190.149
-  port: 7307
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 143 SSS"
-  server: 172.99.190.39
-  port: 5000
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 144 SSS"
+- name: "\U0001F1EC\U0001F1E7 GB 123 SSS"
   server: 172.99.190.61
   port: 8000
   type: ss
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 145 SSS"
-  server: 172.99.190.87
-  port: 5500
+- name: "\U0001F1EC\U0001F1E7 GB 124 SSS"
+  server: 212.102.53.195
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 125 SSS"
+  server: 172.99.190.39
+  port: 5003
   type: ss
   cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
+  password: g5MeD6Ft3CWlJId
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 146 SSS"
-  server: 172.99.190.7
-  port: 7307
+- name: "\U0001F1EC\U0001F1E7 GB 126 SSS"
+  server: 212.102.53.194
+  port: 443
   type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 147 SSS"
+- name: "\U0001F1EC\U0001F1E7 GB 127 SSS"
   server: 212.102.53.198
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 148 SSS"
-  server: 212.102.53.197
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 149 SSS"
-  server: 212.102.53.196
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 150 SSS"
-  server: 35.176.191.234
-  port: 50000
-  type: ss
-  cipher: aes-256-cfb
-  password: '3135771619'
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 151 SSS"
-  server: 82.145.41.125
-  port: 6679
+- name: "\U0001F1EC\U0001F1E7 GB 128 SSS"
+  server: 212.38.189.174
+  port: 8000
   type: ss
   cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
+  password: KixLvKzwjekG00rm
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 152 SSS"
-  server: 212.102.53.81
+- name: "\U0001F1EE\U0001F1F3 IN 129 TJN"
+  server: 152.70.74.66
   port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
+  type: trojan
+  password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
+  skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 153 SSS"
-  server: 139.162.236.79
-  port: 8099
-  type: ss
-  cipher: aes-256-cfb
-  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 154 SSS"
-  server: 212.102.53.193
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 155 SSS"
+- name: "\U0001F1F3\U0001F1F1 NL 130 SSS"
   server: 172.99.188.99
-  port: 4444
+  port: 5003
   type: ss
   cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 156 SSS"
-  server: 172.99.188.71
-  port: 5000
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 157 SSS"
-  server: 51.15.0.113
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 158 SSS"
-  server: 213.183.59.211
-  port: 9079
-  type: ss
-  cipher: aes-256-cfb
-  password: TPqX8edgbAURcAMb
-  udp: true
-- name: "\U0001F1F5\U0001F1F1 PL 159 SSS"
-  server: 194.15.196.78
-  port: 6697
-  type: ss
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-  udp: true
-- name: "\U0001F1F5\U0001F1F1 PL 160 SSS"
-  server: 194.15.196.106
-  port: 8090
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 161 SSS"
-  server: 54.36.174.181
-  port: 5000
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: "\U0001F1F5\U0001F1F1 PL 162 SSS"
-  server: 51.77.53.200
-  port: 8091
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
+  password: g5MeD6Ft3CWlJId
   udp: true
 proxy-groups:
 - name: automatic
@@ -1238,66 +1014,34 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 100 SSS"
   - "\U0001F1FA\U0001F1F8 US 101 SSS"
   - "\U0001F1FA\U0001F1F8 US 102 SSS"
-  - "\U0001F1FA\U0001F1F8 US 103 SSS"
+  - "\U0001F1FA\U0001F1F8 US 103 TJN"
   - "\U0001F1FA\U0001F1F8 US 104 SSS"
   - "\U0001F1FA\U0001F1F8 US 105 SSS"
   - "\U0001F1FA\U0001F1F8 US 106 SSS"
-  - "\U0001F1FA\U0001F1F8 US 107 SSS"
-  - "\U0001F1FA\U0001F1F8 US 108 SSS"
-  - "\U0001F1FA\U0001F1F8 US 109 SSS"
-  - "\U0001F1FA\U0001F1F8 US 110 SSS"
-  - "\U0001F1FA\U0001F1F8 US 111 TJN"
-  - "\U0001F1F8\U0001F1EC SG 112 SSS"
+  - "\U0001F1F8\U0001F1EC SG 107 SSS"
+  - "\U0001F1F8\U0001F1EC SG 108 SSS"
+  - "\U0001F1F8\U0001F1EC SG 109 SSS"
+  - "\U0001F1F8\U0001F1EC SG 110 SSS"
+  - "\U0001F1F8\U0001F1EC SG 111 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 112 SSS"
   - "\U0001F1EF\U0001F1F5 JP 113 SSS"
   - "\U0001F1EF\U0001F1F5 JP 114 SSS"
   - "\U0001F1EF\U0001F1F5 JP 115 SSS"
   - "\U0001F1EF\U0001F1F5 JP 116 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 117 SSS"
-  - "\U0001F1E7\U0001F1EC BG 118 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 117 SSS"
+  - "\U0001F1E8\U0001F1E6 CA 118 SSS"
   - "\U0001F1E8\U0001F1E6 CA 119 SSS"
-  - "\U0001F1E8\U0001F1E6 CA 120 SSS"
-  - "\U0001F1E8\U0001F1E6 CA 121 SSS"
-  - "\U0001F1E8\U0001F1E6 CA 122 SSS"
-  - "\U0001F1E8\U0001F1E6 CA 123 SSS"
-  - "\U0001F1E8\U0001F1ED CH 124 SSS"
-  - "\U0001F1E9\U0001F1EA DE 125 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 126 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 127 SSS"
-  - "\U0001F1E9\U0001F1EA DE 128 SSS"
-  - "\U0001F1E9\U0001F1EA DE 129 SSS"
-  - "\U0001F1E9\U0001F1EA DE 130 TJN"
-  - "\U0001F1E9\U0001F1EA DE 131 SSS"
-  - "\U0001F1E9\U0001F1EA DE 132 SSS"
-  - "\U0001F1E9\U0001F1EA DE 133 SSS"
-  - "\U0001F1E9\U0001F1EA DE 134 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 135 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 136 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 137 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 138 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 139 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 140 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 141 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 142 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 143 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 144 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 145 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 146 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 147 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 148 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 149 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 150 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 151 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 152 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 153 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 154 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 155 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 156 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 157 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 158 SSS"
-  - "\U0001F1F5\U0001F1F1 PL 159 SSS"
-  - "\U0001F1F5\U0001F1F1 PL 160 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 161 SSS"
-  - "\U0001F1F5\U0001F1F1 PL 162 SSS"
+  - "\U0001F1E9\U0001F1EA DE 120 SSS"
+  - "\U0001F1E9\U0001F1EA DE 121 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 122 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 123 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 124 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 125 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 126 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 127 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 128 SSS"
+  - "\U0001F1EE\U0001F1F3 IN 129 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 130 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -1406,65 +1150,33 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 100 SSS"
   - "\U0001F1FA\U0001F1F8 US 101 SSS"
   - "\U0001F1FA\U0001F1F8 US 102 SSS"
-  - "\U0001F1FA\U0001F1F8 US 103 SSS"
+  - "\U0001F1FA\U0001F1F8 US 103 TJN"
   - "\U0001F1FA\U0001F1F8 US 104 SSS"
   - "\U0001F1FA\U0001F1F8 US 105 SSS"
   - "\U0001F1FA\U0001F1F8 US 106 SSS"
-  - "\U0001F1FA\U0001F1F8 US 107 SSS"
-  - "\U0001F1FA\U0001F1F8 US 108 SSS"
-  - "\U0001F1FA\U0001F1F8 US 109 SSS"
-  - "\U0001F1FA\U0001F1F8 US 110 SSS"
-  - "\U0001F1FA\U0001F1F8 US 111 TJN"
-  - "\U0001F1F8\U0001F1EC SG 112 SSS"
+  - "\U0001F1F8\U0001F1EC SG 107 SSS"
+  - "\U0001F1F8\U0001F1EC SG 108 SSS"
+  - "\U0001F1F8\U0001F1EC SG 109 SSS"
+  - "\U0001F1F8\U0001F1EC SG 110 SSS"
+  - "\U0001F1F8\U0001F1EC SG 111 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 112 SSS"
   - "\U0001F1EF\U0001F1F5 JP 113 SSS"
   - "\U0001F1EF\U0001F1F5 JP 114 SSS"
   - "\U0001F1EF\U0001F1F5 JP 115 SSS"
   - "\U0001F1EF\U0001F1F5 JP 116 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 117 SSS"
-  - "\U0001F1E7\U0001F1EC BG 118 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 117 SSS"
+  - "\U0001F1E8\U0001F1E6 CA 118 SSS"
   - "\U0001F1E8\U0001F1E6 CA 119 SSS"
-  - "\U0001F1E8\U0001F1E6 CA 120 SSS"
-  - "\U0001F1E8\U0001F1E6 CA 121 SSS"
-  - "\U0001F1E8\U0001F1E6 CA 122 SSS"
-  - "\U0001F1E8\U0001F1E6 CA 123 SSS"
-  - "\U0001F1E8\U0001F1ED CH 124 SSS"
-  - "\U0001F1E9\U0001F1EA DE 125 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 126 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 127 SSS"
-  - "\U0001F1E9\U0001F1EA DE 128 SSS"
-  - "\U0001F1E9\U0001F1EA DE 129 SSS"
-  - "\U0001F1E9\U0001F1EA DE 130 TJN"
-  - "\U0001F1E9\U0001F1EA DE 131 SSS"
-  - "\U0001F1E9\U0001F1EA DE 132 SSS"
-  - "\U0001F1E9\U0001F1EA DE 133 SSS"
-  - "\U0001F1E9\U0001F1EA DE 134 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 135 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 136 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 137 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 138 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 139 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 140 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 141 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 142 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 143 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 144 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 145 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 146 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 147 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 148 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 149 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 150 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 151 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 152 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 153 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 154 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 155 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 156 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 157 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 158 SSS"
-  - "\U0001F1F5\U0001F1F1 PL 159 SSS"
-  - "\U0001F1F5\U0001F1F1 PL 160 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 161 SSS"
-  - "\U0001F1F5\U0001F1F1 PL 162 SSS"
+  - "\U0001F1E9\U0001F1EA DE 120 SSS"
+  - "\U0001F1E9\U0001F1EA DE 121 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 122 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 123 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 124 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 125 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 126 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 127 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 128 SSS"
+  - "\U0001F1EE\U0001F1F3 IN 129 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 130 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
