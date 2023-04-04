@@ -790,20 +790,20 @@ proxies:
   password: a70b39d1-62ea-4d9e-b681-9c5408352234
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 113 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 113 SSS"
+  server: ten-hk-88fg7f.tianziyu.com
+  port: 19875
+  type: ss
+  cipher: aes-256-gcm
+  password: f581206d-974c-4721-87f1-e9674dac52c3
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 HK 114 TJN"
   server: 16.163.103.59
   port: 443
   type: trojan
   password: b79a9be5-0fc7-426c-9741-602ba021db36
   sni: 16-163-218-240.nhost.00cdn.com
   skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 114 SSS"
-  server: ten-hk-88fg7f.tianziyu.com
-  port: 19875
-  type: ss
-  cipher: aes-256-gcm
-  password: f581206d-974c-4721-87f1-e9674dac52c3
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 115 SSS"
   server: 180.101.193.226
@@ -812,12 +812,12 @@ proxies:
   cipher: aes-256-cfb
   password: RsDk3peCSuo76B68
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 116 TJN"
-  server: 106.225.132.4
-  port: 19217
-  type: trojan
-  password: 0e0e8057-810e-3b64-b8f5-19baa5f8fa2f
-  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 116 SSS"
+  server: 14.29.124.168
+  port: 24008
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 117 TJN"
   server: as.steamdownload.top
@@ -828,6 +828,22 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 118 TJN"
+  server: as.steamdownload.top
+  port: 36644
+  type: trojan
+  password: a5fbbdbf-ed27-4040-9d1b-cc4870d30e2a
+  sni: data.xn--vur082k.cc
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 119 TJN"
+  server: 1a03879e-145d-4b60-8c14-a2ff5e0aca74.interface.buzz
+  port: 443
+  type: trojan
+  password: 285adff2-eb0b-41f6-80d7-8a8fc65b10fc
+  sni: apps.apple.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 120 TJN"
   server: sa.steamdownload.top
   port: 36632
   type: trojan
@@ -835,14 +851,38 @@ proxies:
   sni: data.xn--vur082k.cc
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 119 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 121 TJN"
+  server: sa.steamdownload.top
+  port: 36632
+  type: trojan
+  password: a5fbbdbf-ed27-4040-9d1b-cc4870d30e2a
+  sni: data.xn--vur082k.cc
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 122 TJN"
+  server: cd529a06-85c5-4662-9157-a0ce584cd324.interface.buzz
+  port: 443
+  type: trojan
+  password: 285adff2-eb0b-41f6-80d7-8a8fc65b10fc
+  sni: apps.apple.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 123 TJN"
+  server: sa.steamdownload.top
+  port: 36632
+  type: trojan
+  password: a5fbbdbf-ed27-4040-9d1b-cc4870d30e2a
+  sni: data.xn--vur082k.cc
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1F3 IN 124 TJN"
   server: 152.70.74.66
   port: 443
   type: trojan
   password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F7\U0001F1FA RU 120 TJN"
+- name: "\U0001F1F7\U0001F1FA RU 125 TJN"
   server: 1.hk1997.pro
   port: 443
   type: trojan
@@ -965,14 +1005,19 @@ proxy-groups:
   - "\U0001F1E8\U0001F1E6 CA 110 SSS"
   - "\U0001F1FA\U0001F1F8 US 111 TJN"
   - "\U0001F1ED\U0001F1F0 HK 112 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 113 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 114 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 113 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 114 TJN"
   - "\U0001F1E8\U0001F1F3 CN 115 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 116 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 116 SSS"
   - "\U0001F1E8\U0001F1F3 CN 117 TJN"
   - "\U0001F1E8\U0001F1F3 CN 118 TJN"
-  - "\U0001F1EE\U0001F1F3 IN 119 TJN"
-  - "\U0001F1F7\U0001F1FA RU 120 TJN"
+  - "\U0001F1F8\U0001F1EC SG 119 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 120 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 121 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 122 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 123 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 124 TJN"
+  - "\U0001F1F7\U0001F1FA RU 125 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -1091,13 +1136,18 @@ proxy-groups:
   - "\U0001F1E8\U0001F1E6 CA 110 SSS"
   - "\U0001F1FA\U0001F1F8 US 111 TJN"
   - "\U0001F1ED\U0001F1F0 HK 112 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 113 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 114 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 113 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 114 TJN"
   - "\U0001F1E8\U0001F1F3 CN 115 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 116 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 116 SSS"
   - "\U0001F1E8\U0001F1F3 CN 117 TJN"
   - "\U0001F1E8\U0001F1F3 CN 118 TJN"
-  - "\U0001F1EE\U0001F1F3 IN 119 TJN"
-  - "\U0001F1F7\U0001F1FA RU 120 TJN"
+  - "\U0001F1F8\U0001F1EC SG 119 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 120 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 121 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 122 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 123 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 124 TJN"
+  - "\U0001F1F7\U0001F1FA RU 125 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
