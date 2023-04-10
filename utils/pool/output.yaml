@@ -894,26 +894,27 @@ proxies:
   port: 7307
   password: FoOiGlkAA9yPEGP
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 128 SSS"
-  server: 104.243.30.252
-  port: 246
-  type: ss
-  cipher: aes-256-cfb
-  password: bwhskrskr03
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 129 SSS"
-  server: 167.88.62.24
-  port: 8091
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 130 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 128 TJN"
   server: 43-153-34-170.ipv4.rush.ml
   port: 8443
   type: trojan
   password: cf4295378e209e70d12c5bdd017144dfd1c772d3
   sni: rajanews.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 129 SSS"
+  server: 167.88.62.24
+  port: 6379
+  type: ss
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
+- name: "\U0001F1F9\U0001F1FC TW 130 TJN"
+  server: azgy001.xibai6.top
+  port: 20712
+  type: trojan
+  password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf
+  sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 131 TJN"
@@ -924,49 +925,48 @@ proxies:
   sni: mg3.plggogo.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F9\U0001F1FC TW 132 TJN"
-  server: azgy001.xibai6.top
-  port: 20783
-  type: trojan
-  password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F9\U0001F1FC TW 133 TJN"
-  server: azgy001.xibai6.top
-  port: 20712
-  type: trojan
-  password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 134 TJN"
-  server: 170.187.134.190
-  port: 8443
-  type: trojan
-  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 135 SSS"
-  server: 142.202.48.99
-  port: 7306
+- name: "\U0001F1FA\U0001F1F8 US 132 SSS"
+  server: 104.243.30.252
+  port: 246
   type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-cfb
+  password: bwhskrskr03
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 136 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 133 TJN"
   server: usajs.stablize.top
   port: 443
   type: trojan
   password: 62326316-9ec6-43af-a210-b755e3e9623f
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 137 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 134 TJN"
+  server: gzdx.jcnode.top
+  port: 48000
+  type: trojan
+  password: f2c63b02-68c2-4d2a-9e78-a8cd2aa2dcc9
+  sni: us2.ckcloud.info
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 135 SSS"
   server: 35.89.133.187
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 136 SSS"
+  server: as.unlimitedtraffic.top
+  port: 25815
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a3aed593-3415-4672-997d-15798bb301f1
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 137 SSS"
+  server: as.unlimitedtraffic.top
+  port: 25815
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a3aed593-3415-4672-997d-15798bb301f1
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 138 SSS"
   server: as.unlimitedtraffic.top
@@ -989,14 +989,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: a3aed593-3415-4672-997d-15798bb301f1
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 141 SSS"
-  server: as.unlimitedtraffic.top
-  port: 25815
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: a3aed593-3415-4672-997d-15798bb301f1
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 142 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 141 TJN"
   server: dx.plggogo.xyz
   port: 31615
   type: trojan
@@ -1004,26 +997,34 @@ proxies:
   sni: xg.plggogo.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 143 SSS"
-  server: as.unlimitedtraffic.top
-  port: 25815
+- name: "\U0001F1E8\U0001F1F3 CN 142 SSS"
+  server: gzyd.jcnode.top
+  port: 40003
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: a3aed593-3415-4672-997d-15798bb301f1
+  cipher: aes-256-gcm
+  password: f2c63b02-68c2-4d2a-9e78-a8cd2aa2dcc9
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 143 TJN"
+  server: gzdx01.jcnode.top
+  port: 40000
+  type: trojan
+  password: f2c63b02-68c2-4d2a-9e78-a8cd2aa2dcc9
+  sni: hk01.ckcloud.info
+  skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 144 SSS"
+  server: gzdx.jcnode.top
+  port: 40002
+  type: ss
+  cipher: aes-256-gcm
+  password: f2c63b02-68c2-4d2a-9e78-a8cd2aa2dcc9
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 145 SSS"
   server: 180.101.193.226
   port: 10068
   type: ss
   cipher: aes-256-cfb
   password: RsDk3peCSuo76B68
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 145 SSS"
-  server: as.unlimitedtraffic.top
-  port: 25815
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: a3aed593-3415-4672-997d-15798bb301f1
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 146 SSS"
   server: as.unlimitedtraffic.top
@@ -1033,35 +1034,32 @@ proxies:
   password: a3aed593-3415-4672-997d-15798bb301f1
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 147 SSS"
+  server: as.unlimitedtraffic.top
+  port: 25815
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a3aed593-3415-4672-997d-15798bb301f1
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 148 SSS"
+  server: as.unlimitedtraffic.top
+  port: 25815
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a3aed593-3415-4672-997d-15798bb301f1
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 149 SSS"
+  server: as.unlimitedtraffic.top
+  port: 25815
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a3aed593-3415-4672-997d-15798bb301f1
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 150 SSS"
   server: 14.29.124.168
-  port: 24001
+  port: 24002
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 148 TJN"
-  server: official.taipeicitygovernment.kiev.ua
-  port: 8443
-  type: trojan
-  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
-  sni: 66.42.40.132
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 149 TJN"
-  server: official.taipeicitygovernment.kiev.ua
-  port: 8443
-  type: trojan
-  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
-  sni: 66.42.40.132
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 150 TJN"
-  server: official.taipeicitygovernment.kiev.ua
-  port: 8443
-  type: trojan
-  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
-  sni: 66.42.40.132
-  skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 151 TJN"
   server: official.taipeicitygovernment.kiev.ua
@@ -1076,6 +1074,7 @@ proxies:
   port: 8443
   type: trojan
   password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
+  sni: 66.42.40.132
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 153 TJN"
@@ -1083,31 +1082,47 @@ proxies:
   port: 8443
   type: trojan
   password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 154 TJN"
+  server: official.taipeicitygovernment.kiev.ua
+  port: 8443
+  type: trojan
+  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
   sni: 66.42.40.132
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 154 SSS"
-  server: 13.212.139.93
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+- name: "\U0001F1E8\U0001F1F3 CN 155 TJN"
+  server: official.taipeicitygovernment.kiev.ua
+  port: 8443
+  type: trojan
+  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
+  sni: 66.42.40.132
+  skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 155 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 156 TJN"
+  server: official.taipeicitygovernment.kiev.ua
+  port: 8443
+  type: trojan
+  password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f
+  sni: 66.42.40.132
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 157 SSS"
+  server: gzdx.jcnode.top
+  port: 42001
+  type: ss
+  cipher: aes-256-gcm
+  password: f2c63b02-68c2-4d2a-9e78-a8cd2aa2dcc9
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 158 SSS"
   server: 13.215.183.14
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 156 SSS"
-  server: 13.214.212.14
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 157 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 159 TJN"
   server: v01.gutingting.com
   port: 20222
   type: trojan
@@ -1115,7 +1130,15 @@ proxies:
   sni: v2sg01.fuqiangren.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 158 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 160 TJN"
+  server: yn.76po.com
+  port: 42843
+  type: trojan
+  password: 42439447-100d-3c09-bdce-7e296b9b2ac6
+  sni: sg01.icmp.eu.org
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 161 TJN"
   server: dx.plggogo.xyz
   port: 31613
   type: trojan
@@ -1123,51 +1146,50 @@ proxies:
   sni: wrxjp.plggogo.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 159 SSS"
-  server: 13.215.183.79
+- name: "\U0001F1F8\U0001F1EC SG 162 SSS"
+  server: 13.214.212.14
   port: 443
   type: ss
   cipher: aes-256-cfb
-  password: doub.io
+  password: amazonskr05
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 160 SSS"
-  server: 176.97.65.241
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 161 TJN"
-  server: yn.76po.com
-  port: 42843
-  type: trojan
-  password: cfed69d3-48e2-3820-b593-6933d0ba3607
-  sni: sg01.icmp.eu.org
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 162 SSS"
+- name: "\U0001F1F8\U0001F1EC SG 163 SSS"
   server: 13.215.191.190
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 163 SSS"
-  server: 43.207.108.0
+- name: "\U0001F1F8\U0001F1EC SG 164 SSS"
+  server: 13.212.139.93
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 164 TJN"
-  server: sa.steamdownload.top
-  port: 36632
-  type: trojan
-  password: ae064bf6-66fe-4902-abf7-e1b7157e1f30
-  sni: datajp.steamdownload.top
-  skip-cert-verify: true
-  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 165 TJN"
+  server: gzdx.jcnode.top
+  port: 43002
+  type: trojan
+  password: f2c63b02-68c2-4d2a-9e78-a8cd2aa2dcc9
+  sni: sg01.ckcloud.info
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 166 SSS"
+  server: 13.215.183.79
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: doub.io
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 167 SSS"
+  server: 43.207.120.229
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 168 TJN"
   server: sa.steamdownload.top
   port: 36632
   type: trojan
@@ -1175,7 +1197,7 @@ proxies:
   sni: datajp.steamdownload.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 166 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 169 TJN"
   server: jp1.cnamazon.sbs
   port: 443
   type: trojan
@@ -1183,7 +1205,7 @@ proxies:
   sni: jp1.cnamazon.sbs
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 167 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 170 TJN"
   server: sa.steamdownload.top
   port: 36632
   type: trojan
@@ -1191,176 +1213,171 @@ proxies:
   sni: datajp.steamdownload.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 168 SSS"
-  server: 43.207.160.88
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: doub.io
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 169 TJN"
-  server: sa.steamdownload.top
-  port: 36632
-  type: trojan
-  password: ae064bf6-66fe-4902-abf7-e1b7157e1f30
-  sni: datajp.steamdownload.top
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 170 SSS"
-  server: 43.207.120.229
+- name: "\U0001F1EF\U0001F1F5 JP 171 SSS"
+  server: 43.207.108.0
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 171 SSS"
+- name: "\U0001F1EF\U0001F1F5 JP 172 SSS"
   server: 43.207.205.208
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F1E8\U0001F1FE CY 172 SSS"
-  server: 213.169.137.221
-  port: 989
+- name: "\U0001F1EF\U0001F1F5 JP 173 SSS"
+  server: 43.206.194.235
+  port: 443
   type: ss
   cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
+  password: amazonskr05
   udp: true
-- name: "\U0001F1EB\U0001F1EE FI 173 SSS"
-  server: 37.143.129.230
-  port: 989
+- name: "\U0001F1EF\U0001F1F5 JP 174 SSS"
+  server: 43.207.160.88
+  port: 443
   type: ss
   cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
+  password: doub.io
   udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 174 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 175 SSS"
+  server: gzdx.jcnode.top
+  port: 41000
+  type: ss
+  cipher: aes-256-gcm
+  password: f2c63b02-68c2-4d2a-9e78-a8cd2aa2dcc9
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 176 TJN"
+  server: sa.steamdownload.top
+  port: 36632
+  type: trojan
+  password: ae064bf6-66fe-4902-abf7-e1b7157e1f30
+  sni: datajp.steamdownload.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 177 TJN"
+  server: sa.steamdownload.top
+  port: 36632
+  type: trojan
+  password: ae064bf6-66fe-4902-abf7-e1b7157e1f30
+  sni: datajp.steamdownload.top
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 178 SSS"
+  server: gzdx01.jcnode.top
+  port: 49001
+  type: ss
+  cipher: aes-256-gcm
+  password: f2c63b02-68c2-4d2a-9e78-a8cd2aa2dcc9
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 179 TJN"
+  server: jscm.lele233.top
+  port: 10021
+  type: trojan
+  password: f2c63b02-68c2-4d2a-9e78-a8cd2aa2dcc9
+  sni: uk01.ckcloud.info
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1F3 IN 180 TJN"
   server: 152.70.74.66
   port: 443
   type: trojan
   password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 175 SSS"
-  server: 43.201.60.60
-  port: 443
+- name: "\U0001F1E8\U0001F1F3 CN 181 SSS"
+  server: gzdx.jcnode.top
+  port: 49000
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+  cipher: aes-256-gcm
+  password: f2c63b02-68c2-4d2a-9e78-a8cd2aa2dcc9
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 176 SSS"
-  server: 43.201.146.250
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 177 TJN"
-  server: ora.blowm1k.club
-  port: 28199
-  type: trojan
-  password: KpdSpmQB3i
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 178 SSS"
-  server: 43.200.6.15
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 179 SSS"
-  server: 43.201.48.212
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 180 SSS"
+- name: "\U0001F1F0\U0001F1F7 KR 182 SSS"
   server: 43.201.148.126
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 181 SSS"
-  server: 43.200.6.0
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 182 SSS"
-  server: 43.201.14.240
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 183 SSS"
-  server: 43.201.70.114
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+- name: "\U0001F1F0\U0001F1F7 KR 183 TJN"
+  server: ora.blowm1k.club
+  port: 28199
+  type: trojan
+  password: KpdSpmQB3i
+  skip-cert-verify: true
   udp: true
 - name: "\U0001F1F0\U0001F1F7 KR 184 SSS"
-  server: 43.201.86.41
+  server: 43.200.6.15
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
 - name: "\U0001F1F0\U0001F1F7 KR 185 SSS"
+  server: 43.201.86.41
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 186 SSS"
+  server: 43.201.48.212
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 187 SSS"
+  server: 43.201.14.240
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 188 SSS"
   server: 43.201.146.228
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F1F2\U0001F1F0 MK 186 SSS"
-  server: 46.183.185.15
-  port: 989
+- name: "\U0001F1F0\U0001F1F7 KR 189 SSS"
+  server: 43.201.146.250
+  port: 443
   type: ss
   cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
+  password: amazonskr05
   udp: true
-- name: "\U0001F1F2\U0001F1FD MX 187 SSS"
-  server: 190.103.179.23
-  port: 989
+- name: "\U0001F1F0\U0001F1F7 KR 190 SSS"
+  server: 43.201.60.60
+  port: 443
   type: ss
   cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
+  password: amazonskr05
   udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 188 SSS"
+- name: "\U0001F1F3\U0001F1F1 NL 191 SSS"
   server: 172.99.188.99
   port: 6379
   type: ss
   cipher: aes-256-gcm
   password: zDNVedRFPQexG9v
   udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 189 SSS"
-  server: 51.15.0.113
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-- name: "\U0001F1F7\U0001F1FA RU 190 TJN"
+- name: "\U0001F1F7\U0001F1FA RU 192 TJN"
   server: insaneguo2333.top
   port: 443
   type: trojan
   password: 40fd551a-0bbe-460d-b0d9-4bf4ad413b0f
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 191 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 193 SSS"
   server: cn1.applebench.tech
   port: 19198
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7335c755-8c4c-4e85-821c-589d3d6e20b8
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 192 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 194 TJN"
   server: v02.gutingting.com
   port: 30051
   type: trojan
@@ -1499,71 +1516,73 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 125 SSS"
   - "\U0001F1FA\U0001F1F8 US 126 SSS"
   - "\U0001F1E8\U0001F1E6 CA 127 SSS"
-  - "\U0001F1FA\U0001F1F8 US 128 SSS"
+  - "\U0001F1FA\U0001F1F8 US 128 TJN"
   - "\U0001F1FA\U0001F1F8 US 129 SSS"
-  - "\U0001F1FA\U0001F1F8 US 130 TJN"
+  - "\U0001F1F9\U0001F1FC TW 130 TJN"
   - "\U0001F1E8\U0001F1F3 CN 131 TJN"
-  - "\U0001F1F9\U0001F1FC TW 132 TJN"
-  - "\U0001F1F9\U0001F1FC TW 133 TJN"
-  - "\U0001F1FA\U0001F1F8 US 134 TJN"
+  - "\U0001F1FA\U0001F1F8 US 132 SSS"
+  - "\U0001F1F8\U0001F1EC SG 133 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 134 TJN"
   - "\U0001F1FA\U0001F1F8 US 135 SSS"
-  - "\U0001F1F8\U0001F1EC SG 136 TJN"
-  - "\U0001F1FA\U0001F1F8 US 137 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 136 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 137 SSS"
   - "\U0001F1E8\U0001F1F3 CN 138 SSS"
   - "\U0001F1E8\U0001F1F3 CN 139 SSS"
   - "\U0001F1E8\U0001F1F3 CN 140 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 141 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 142 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 143 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 141 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 142 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 143 TJN"
   - "\U0001F1E8\U0001F1F3 CN 144 SSS"
   - "\U0001F1E8\U0001F1F3 CN 145 SSS"
   - "\U0001F1E8\U0001F1F3 CN 146 SSS"
   - "\U0001F1E8\U0001F1F3 CN 147 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 148 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 149 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 150 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 148 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 149 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 150 SSS"
   - "\U0001F1E8\U0001F1F3 CN 151 TJN"
   - "\U0001F1E8\U0001F1F3 CN 152 TJN"
   - "\U0001F1E8\U0001F1F3 CN 153 TJN"
-  - "\U0001F1F8\U0001F1EC SG 154 SSS"
-  - "\U0001F1F8\U0001F1EC SG 155 SSS"
-  - "\U0001F1F8\U0001F1EC SG 156 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 157 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 158 TJN"
-  - "\U0001F1F8\U0001F1EC SG 159 SSS"
-  - "\U0001F1F8\U0001F1EC SG 160 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 154 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 155 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 156 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 157 SSS"
+  - "\U0001F1F8\U0001F1EC SG 158 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 159 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 160 TJN"
   - "\U0001F1E8\U0001F1F3 CN 161 TJN"
   - "\U0001F1F8\U0001F1EC SG 162 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 163 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 164 TJN"
+  - "\U0001F1F8\U0001F1EC SG 163 SSS"
+  - "\U0001F1F8\U0001F1EC SG 164 SSS"
   - "\U0001F1E8\U0001F1F3 CN 165 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 166 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 167 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 168 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 169 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 170 SSS"
+  - "\U0001F1F8\U0001F1EC SG 166 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 167 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 168 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 169 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 170 TJN"
   - "\U0001F1EF\U0001F1F5 JP 171 SSS"
-  - "\U0001F1E8\U0001F1FE CY 172 SSS"
-  - "\U0001F1EB\U0001F1EE FI 173 SSS"
-  - "\U0001F1EE\U0001F1F3 IN 174 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 175 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 176 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 177 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 178 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 179 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 180 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 181 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 172 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 173 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 174 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 175 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 176 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 177 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 178 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 179 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 180 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 181 SSS"
   - "\U0001F1F0\U0001F1F7 KR 182 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 183 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 183 TJN"
   - "\U0001F1F0\U0001F1F7 KR 184 SSS"
   - "\U0001F1F0\U0001F1F7 KR 185 SSS"
-  - "\U0001F1F2\U0001F1F0 MK 186 SSS"
-  - "\U0001F1F2\U0001F1FD MX 187 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 188 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 189 SSS"
-  - "\U0001F1F7\U0001F1FA RU 190 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 191 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 192 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 186 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 187 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 188 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 189 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 190 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 191 SSS"
+  - "\U0001F1F7\U0001F1FA RU 192 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 193 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 194 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -1697,70 +1716,72 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 125 SSS"
   - "\U0001F1FA\U0001F1F8 US 126 SSS"
   - "\U0001F1E8\U0001F1E6 CA 127 SSS"
-  - "\U0001F1FA\U0001F1F8 US 128 SSS"
+  - "\U0001F1FA\U0001F1F8 US 128 TJN"
   - "\U0001F1FA\U0001F1F8 US 129 SSS"
-  - "\U0001F1FA\U0001F1F8 US 130 TJN"
+  - "\U0001F1F9\U0001F1FC TW 130 TJN"
   - "\U0001F1E8\U0001F1F3 CN 131 TJN"
-  - "\U0001F1F9\U0001F1FC TW 132 TJN"
-  - "\U0001F1F9\U0001F1FC TW 133 TJN"
-  - "\U0001F1FA\U0001F1F8 US 134 TJN"
+  - "\U0001F1FA\U0001F1F8 US 132 SSS"
+  - "\U0001F1F8\U0001F1EC SG 133 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 134 TJN"
   - "\U0001F1FA\U0001F1F8 US 135 SSS"
-  - "\U0001F1F8\U0001F1EC SG 136 TJN"
-  - "\U0001F1FA\U0001F1F8 US 137 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 136 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 137 SSS"
   - "\U0001F1E8\U0001F1F3 CN 138 SSS"
   - "\U0001F1E8\U0001F1F3 CN 139 SSS"
   - "\U0001F1E8\U0001F1F3 CN 140 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 141 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 142 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 143 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 141 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 142 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 143 TJN"
   - "\U0001F1E8\U0001F1F3 CN 144 SSS"
   - "\U0001F1E8\U0001F1F3 CN 145 SSS"
   - "\U0001F1E8\U0001F1F3 CN 146 SSS"
   - "\U0001F1E8\U0001F1F3 CN 147 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 148 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 149 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 150 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 148 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 149 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 150 SSS"
   - "\U0001F1E8\U0001F1F3 CN 151 TJN"
   - "\U0001F1E8\U0001F1F3 CN 152 TJN"
   - "\U0001F1E8\U0001F1F3 CN 153 TJN"
-  - "\U0001F1F8\U0001F1EC SG 154 SSS"
-  - "\U0001F1F8\U0001F1EC SG 155 SSS"
-  - "\U0001F1F8\U0001F1EC SG 156 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 157 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 158 TJN"
-  - "\U0001F1F8\U0001F1EC SG 159 SSS"
-  - "\U0001F1F8\U0001F1EC SG 160 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 154 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 155 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 156 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 157 SSS"
+  - "\U0001F1F8\U0001F1EC SG 158 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 159 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 160 TJN"
   - "\U0001F1E8\U0001F1F3 CN 161 TJN"
   - "\U0001F1F8\U0001F1EC SG 162 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 163 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 164 TJN"
+  - "\U0001F1F8\U0001F1EC SG 163 SSS"
+  - "\U0001F1F8\U0001F1EC SG 164 SSS"
   - "\U0001F1E8\U0001F1F3 CN 165 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 166 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 167 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 168 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 169 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 170 SSS"
+  - "\U0001F1F8\U0001F1EC SG 166 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 167 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 168 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 169 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 170 TJN"
   - "\U0001F1EF\U0001F1F5 JP 171 SSS"
-  - "\U0001F1E8\U0001F1FE CY 172 SSS"
-  - "\U0001F1EB\U0001F1EE FI 173 SSS"
-  - "\U0001F1EE\U0001F1F3 IN 174 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 175 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 176 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 177 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 178 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 179 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 180 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 181 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 172 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 173 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 174 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 175 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 176 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 177 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 178 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 179 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 180 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 181 SSS"
   - "\U0001F1F0\U0001F1F7 KR 182 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 183 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 183 TJN"
   - "\U0001F1F0\U0001F1F7 KR 184 SSS"
   - "\U0001F1F0\U0001F1F7 KR 185 SSS"
-  - "\U0001F1F2\U0001F1F0 MK 186 SSS"
-  - "\U0001F1F2\U0001F1FD MX 187 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 188 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 189 SSS"
-  - "\U0001F1F7\U0001F1FA RU 190 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 191 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 192 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 186 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 187 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 188 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 189 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 190 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 191 SSS"
+  - "\U0001F1F7\U0001F1FA RU 192 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 193 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 194 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
