@@ -204,14 +204,15 @@ proxies:
   - {name: unknown 4 → openitsub.com, server: 103.159.132.102, port: 31372, type: vmess, uuid: c11236af-56a6-49b3-c1b9-7b54ac3acb42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 1 → openitsub.com, server: 129.154.61.32, port: 80, type: vmess, uuid: 93c8fd94-17de-4730-8977-d55e304e9a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 1 → openitsub.com, server: 223.111.114.234, port: 590, type: ss, cipher: chacha20-ietf-poly1305, password: a2f3e987-f987-4bee-9b7c-e85f18c77580, udp: true}
+  - {name: 🇨🇳 CN 10 → openitsub.com, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
   - {name: 🇨🇳 CN 2 → openitsub.com, server: 223.111.114.233, port: 654, type: ss, cipher: chacha20-ietf-poly1305, password: a2f3e987-f987-4bee-9b7c-e85f18c77580, udp: true}
   - {name: 🇨🇳 CN 3 → openitsub.com, server: 223.111.114.233, port: 653, type: ss, cipher: chacha20-ietf-poly1305, password: a2f3e987-f987-4bee-9b7c-e85f18c77580, udp: true}
   - {name: 🇨🇳 CN 4 → openitsub.com, server: 223.111.114.232, port: 651, type: ss, cipher: chacha20-ietf-poly1305, password: a2f3e987-f987-4bee-9b7c-e85f18c77580, udp: true}
   - {name: 🇨🇳 CN 5 → openitsub.com, server: 223.109.67.28, port: 652, type: ss, cipher: chacha20-ietf-poly1305, password: a2f3e987-f987-4bee-9b7c-e85f18c77580, udp: true}
   - {name: 🇨🇳 CN 6 → openitsub.com, server: 223.109.67.25, port: 597, type: ss, cipher: chacha20-ietf-poly1305, password: a2f3e987-f987-4bee-9b7c-e85f18c77580, udp: true}
-  - {name: 🇨🇳 CN 7 → openitsub.com, server: 223.111.114.234, port: 591, type: ss, cipher: chacha20-ietf-poly1305, password: a2f3e987-f987-4bee-9b7c-e85f18c77580, udp: true}
+  - {name: 🇨🇳 CN 7 → openitsub.com, server: 223.109.67.23, port: 758, type: ss, cipher: chacha20-ietf-poly1305, password: a2f3e987-f987-4bee-9b7c-e85f18c77580, udp: true}
   - {name: 🇨🇳 CN 8 → openitsub.com, server: 223.109.67.25, port: 592, type: ss, cipher: chacha20-ietf-poly1305, password: a2f3e987-f987-4bee-9b7c-e85f18c77580, udp: true}
-  - {name: 🇨🇳 CN 9 → openitsub.com, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: 🇨🇳 CN 9 → openitsub.com, server: 223.111.114.234, port: 591, type: ss, cipher: chacha20-ietf-poly1305, password: a2f3e987-f987-4bee-9b7c-e85f18c77580, udp: true}
   - {name: 🇨🇳 TW 1 → openitsub.com, server: fn600mliness018.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, udp: true}
   - {name: 🇨🇳 TW 2 → openitsub.com, server: fn600mliness019.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 61f301daaf4e, udp: true}
   - {name: 🇨🇳 TW 3 → openitsub.com, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, udp: true}
@@ -261,6 +262,7 @@ proxy-groups:
       - unknown 4 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 CN 10 → openitsub.com
       - 🇨🇳 CN 2 → openitsub.com
       - 🇨🇳 CN 3 → openitsub.com
       - 🇨🇳 CN 4 → openitsub.com
@@ -307,6 +309,7 @@ proxy-groups:
       - unknown 4 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 CN 10 → openitsub.com
       - 🇨🇳 CN 2 → openitsub.com
       - 🇨🇳 CN 3 → openitsub.com
       - 🇨🇳 CN 4 → openitsub.com
@@ -345,6 +348,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 CN 10 → openitsub.com
       - 🇨🇳 CN 2 → openitsub.com
       - 🇨🇳 CN 3 → openitsub.com
       - 🇨🇳 CN 4 → openitsub.com
@@ -415,6 +419,7 @@ proxy-groups:
       - ZA 1 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 CN 10 → openitsub.com
       - 🇨🇳 CN 2 → openitsub.com
       - 🇨🇳 CN 3 → openitsub.com
       - 🇨🇳 CN 4 → openitsub.com
@@ -440,6 +445,7 @@ proxy-groups:
       - unknown 4 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
+      - 🇨🇳 CN 10 → openitsub.com
       - 🇨🇳 CN 2 → openitsub.com
       - 🇨🇳 CN 3 → openitsub.com
       - 🇨🇳 CN 4 → openitsub.com
