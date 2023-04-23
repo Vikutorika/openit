@@ -195,8 +195,7 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: RW 1 → openitsub.com, server: unicom.9299.fp-dns.xyz, port: 22019, type: trojan, password: f0a9a2e2-0b62-4d46-a97c-c16eb25a88c7, skip-cert-verify: true, udp: true}
-  - {name: RW 2 → openitsub.com, server: unicom.9299.fp-dns.xyz, port: 22020, type: trojan, password: f0a9a2e2-0b62-4d46-a97c-c16eb25a88c7, skip-cert-verify: true, udp: true}
+  - {name: RW 1 → openitsub.com, server: unicom.9299.fp-dns.xyz, port: 22020, type: trojan, password: f0a9a2e2-0b62-4d46-a97c-c16eb25a88c7, skip-cert-verify: true, udp: true}
   - {name: ZA 1 → openitsub.com, server: fc.hk04.fp-dns.xyz, port: 2096, type: trojan, password: f0a9a2e2-0b62-4d46-a97c-c16eb25a88c7, skip-cert-verify: true, udp: true}
   - {name: unknown 1 → openitsub.com, server: zhongzhuan01.kaochangonline.online, port: 12233, type: ss, cipher: chacha20-ietf-poly1305, password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3, udp: true}
   - {name: unknown 2 → openitsub.com, server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, udp: true}
@@ -245,7 +244,6 @@ proxy-groups:
     type: select
     proxies:
       - RW 1 → openitsub.com
-      - RW 2 → openitsub.com
       - ZA 1 → openitsub.com
       - unknown 1 → openitsub.com
       - unknown 2 → openitsub.com
@@ -283,7 +281,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - RW 1 → openitsub.com
-      - RW 2 → openitsub.com
       - ZA 1 → openitsub.com
       - unknown 1 → openitsub.com
       - unknown 2 → openitsub.com
@@ -379,7 +376,6 @@ proxy-groups:
     type: select
     proxies:
       - RW 1 → openitsub.com
-      - RW 2 → openitsub.com
       - ZA 1 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
@@ -392,7 +388,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - RW 1 → openitsub.com
-      - RW 2 → openitsub.com
       - ZA 1 → openitsub.com
       - unknown 1 → openitsub.com
       - unknown 2 → openitsub.com
