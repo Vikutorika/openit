@@ -195,7 +195,8 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: CH 1 → openitsub.com, server: 7931.763998.top, port: 20053, type: trojan, password: d7196e46-012c-4f15-991f-fbaea96d2c7a, skip-cert-verify: true, udp: true}
+  - {name: CH 1 → openitsub.com, server: 0689.763998.top, port: 22053, type: trojan, password: d7196e46-012c-4f15-991f-fbaea96d2c7a, skip-cert-verify: true, udp: true}
+  - {name: CH 2 → openitsub.com, server: 7931.763998.top, port: 20053, type: trojan, password: d7196e46-012c-4f15-991f-fbaea96d2c7a, skip-cert-verify: true, udp: true}
   - {name: unknown 1 → openitsub.com, server: zhongzhuan01.kaochangonline.online, port: 12233, type: ss, cipher: chacha20-ietf-poly1305, password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3, udp: true}
   - {name: unknown 10 → openitsub.com, server: aliyun.install02.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: unknown 11 → openitsub.com, server: aliyun.install03.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -219,7 +220,6 @@ proxies:
   - {name: 🇨🇳 TW 6 → openitsub.com, server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, udp: true}
   - {name: 🇪🇸 ES 1 → openitsub.com, server: sp1.connecton.surf, port: 443, type: trojan, password: 6e31f936a2, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FR 1 → openitsub.com, server: fra1.connecton.surf, port: 443, type: trojan, password: cc491f13e9, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 1 → openitsub.com, server: 0689.763998.top, port: 22053, type: trojan, password: d7196e46-012c-4f15-991f-fbaea96d2c7a, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 1 → openitsub.com, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 2 → openitsub.com, server: usa2.connecton.surf, port: 443, type: trojan, password: 29dbe98050, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 3 → openitsub.com, server: uk1.connecton.surf, port: 443, type: trojan, password: ee4657c907, skip-cert-verify: true, udp: true}
@@ -245,6 +245,7 @@ proxy-groups:
     type: select
     proxies:
       - CH 1 → openitsub.com
+      - CH 2 → openitsub.com
       - unknown 1 → openitsub.com
       - unknown 10 → openitsub.com
       - unknown 11 → openitsub.com
@@ -268,7 +269,6 @@ proxy-groups:
       - 🇨🇳 TW 6 → openitsub.com
       - 🇪🇸 ES 1 → openitsub.com
       - 🇫🇷 FR 1 → openitsub.com
-      - 🇯🇵 JP 1 → openitsub.com
       - 🇺🇸 US 1 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
       - 🇺🇸 US 3 → openitsub.com
@@ -283,6 +283,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - CH 1 → openitsub.com
+      - CH 2 → openitsub.com
       - unknown 1 → openitsub.com
       - unknown 10 → openitsub.com
       - unknown 11 → openitsub.com
@@ -306,7 +307,6 @@ proxy-groups:
       - 🇨🇳 TW 6 → openitsub.com
       - 🇪🇸 ES 1 → openitsub.com
       - 🇫🇷 FR 1 → openitsub.com
-      - 🇯🇵 JP 1 → openitsub.com
       - 🇺🇸 US 1 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
       - 🇺🇸 US 3 → openitsub.com
@@ -327,7 +327,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP 1 → openitsub.com
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -371,6 +371,7 @@ proxy-groups:
     type: select
     proxies:
       - CH 1 → openitsub.com
+      - CH 2 → openitsub.com
       - 🇦🇺 AU 1 → openitsub.com
       - 🇨🇳 CN 1 → openitsub.com
       - 🇪🇸 ES 1 → openitsub.com
@@ -382,6 +383,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - CH 1 → openitsub.com
+      - CH 2 → openitsub.com
       - unknown 1 → openitsub.com
       - unknown 10 → openitsub.com
       - unknown 11 → openitsub.com
@@ -405,7 +407,6 @@ proxy-groups:
       - 🇨🇳 TW 6 → openitsub.com
       - 🇪🇸 ES 1 → openitsub.com
       - 🇫🇷 FR 1 → openitsub.com
-      - 🇯🇵 JP 1 → openitsub.com
       - 🇺🇸 US 1 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
       - 🇺🇸 US 3 → openitsub.com
