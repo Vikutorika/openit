@@ -217,11 +217,10 @@ proxies:
   - {name: 🇨🇳 TW 5 → openitsub.com, server: fn600mliness013.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1b584982dbdc, udp: true}
   - {name: 🇨🇳 TW 6 → openitsub.com, server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, udp: true}
   - {name: 🇫🇷 FR 1 → openitsub.com, server: fra1.connecton.surf, port: 443, type: trojan, password: cc491f13e9, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 1 → openitsub.com, server: jpaws01.celerlink.one, port: 64003, type: trojan, password: f8be07e9-4455-463f-ab36-770c5c5a39bb, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 1 → openitsub.com, server: ru02.celerlink.one, port: 64000, type: trojan, password: f8be07e9-4455-463f-ab36-770c5c5a39bb, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 1 → openitsub.com, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2 → openitsub.com, server: rn.ywcloud.cf, port: 443, type: trojan, password: 3cab4355-1a73-4b27-b744-64cc64602dd3, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3 → openitsub.com, server: tokyo.clare88.tk, port: 43986, type: trojan, password: 3pfvcVO2H7, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2 → openitsub.com, server: tokyo.clare88.tk, port: 43986, type: trojan, password: 3pfvcVO2H7, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3 → openitsub.com, server: rn.ywcloud.cf, port: 443, type: trojan, password: 3cab4355-1a73-4b27-b744-64cc64602dd3, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 4 → openitsub.com, server: fndxshk1000mline007.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fbf6ae5c0de, udp: true}
   - {name: 🇺🇸 US 5 → openitsub.com, server: fndxshk1000mline003.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c3d44eb5b92f, udp: true}
   - {name: 🇺🇸 US 6 → openitsub.com, server: fnhk1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 35b13f9dd755, udp: true}
@@ -264,7 +263,6 @@ proxy-groups:
       - 🇨🇳 TW 5 → openitsub.com
       - 🇨🇳 TW 6 → openitsub.com
       - 🇫🇷 FR 1 → openitsub.com
-      - 🇯🇵 JP 1 → openitsub.com
       - 🇷🇺 RU 1 → openitsub.com
       - 🇺🇸 US 1 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
@@ -300,7 +298,6 @@ proxy-groups:
       - 🇨🇳 TW 5 → openitsub.com
       - 🇨🇳 TW 6 → openitsub.com
       - 🇫🇷 FR 1 → openitsub.com
-      - 🇯🇵 JP 1 → openitsub.com
       - 🇷🇺 RU 1 → openitsub.com
       - 🇺🇸 US 1 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
@@ -321,7 +318,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP 1 → openitsub.com
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -395,7 +392,6 @@ proxy-groups:
       - 🇨🇳 TW 5 → openitsub.com
       - 🇨🇳 TW 6 → openitsub.com
       - 🇫🇷 FR 1 → openitsub.com
-      - 🇯🇵 JP 1 → openitsub.com
       - 🇷🇺 RU 1 → openitsub.com
       - 🇺🇸 US 1 → openitsub.com
       - 🇺🇸 US 2 → openitsub.com
