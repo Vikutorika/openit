@@ -5,35 +5,21 @@ proxies:
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: "\U0001F1EC\U0001F1E7 GB 2 SSS"
-  server: ak1784.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-  country: "\U0001F1EC\U0001F1E7GB"
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: "\U0001F1EC\U0001F1E7 GB 3 SSS"
-  server: ak1793.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-  country: "\U0001F1EC\U0001F1E7GB"
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: "\U0001F1F2\U0001F1F0 MK 4 SSS"
+- name: "\U0001F1F2\U0001F1F0 MK 2 SSS"
   server: 46.183.185.15
   type: ss
   country: "\U0001F1F1\U0001F1F9LT"
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
-- name: "\U0001F1F7\U0001F1FA RU 5 SSS"
+- name: "\U0001F1F7\U0001F1FA RU 3 SSS"
   server: 212.113.106.243
   type: ss
   country: "\U0001F1F7\U0001F1FARU"
   port: 12949
   password: P2zxXPewlV3BlfqqYiSthvtLc
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1F7\U0001F1FA RU 6 TJN"
+- name: "\U0001F1F7\U0001F1FA RU 4 TJN"
   server: v234.jsvpn.xyz
   type: trojan
   country: "\U0001F1F7\U0001F1FARU"
@@ -41,20 +27,34 @@ proxies:
   password: ee5d4ca4-cb15-4201-ba4f-4709b5a833d4
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 7 SSS"
-  server: 139.162.41.174
-  type: ss
-  country: "\U0001F1F8\U0001F1ECSG"
-  port: 8099
-  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  cipher: aes-256-cfb
-- name: "\U0001F1F8\U0001F1EC SG 8 SSS"
+- name: "\U0001F1F8\U0001F1EC SG 5 SSS"
   server: 139.162.5.19
   type: ss
   country: "\U0001F1F8\U0001F1ECSG"
   port: 8099
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   cipher: aes-256-cfb
+- name: "\U0001F1F8\U0001F1EC SG 6 SSS"
+  server: 139.162.41.174
+  type: ss
+  country: "\U0001F1F8\U0001F1ECSG"
+  port: 8099
+  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
+  cipher: aes-256-cfb
+- name: "\U0001F1F3\U0001F1F1 NL 7 SSS"
+  server: 172.99.188.99
+  type: ss
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 2375
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: "\U0001F1FA\U0001F1F8 US 8 SSS"
+  server: 38.68.134.9
+  type: ss
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 8119
+  password: cdBIDV42DCwnfIN
+  cipher: aes-256-gcm
 - name: "\U0001F1FA\U0001F1F8 US 9 SSS"
   server: 38.68.134.9
   type: ss
@@ -98,11 +98,11 @@ proxies:
   password: FoOiGlkAA9yPEGP
   cipher: aes-256-gcm
 - name: "\U0001F1FA\U0001F1F8 US 15 SSS"
-  server: 38.68.134.9
+  server: 142.202.48.7
   type: ss
   country: "\U0001F1FA\U0001F1F8US"
-  port: 6379
-  password: zDNVedRFPQexG9v
+  port: 2376
+  password: faBAoD54k87UJG7
   cipher: aes-256-gcm
 - name: "\U0001F1FA\U0001F1F8 US 16 SSS"
   server: 38.68.134.9
@@ -125,12 +125,12 @@ proxies:
   port: 5601
   password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 19 SSS"
-  server: 38.68.134.9
+- name: "\U0001F1F3\U0001F1F1 NL 19 SSS"
+  server: 172.99.188.99
   type: ss
   country: "\U0001F1FA\U0001F1F8US"
-  port: 8119
-  password: cdBIDV42DCwnfIN
+  port: 5001
+  password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
 - name: "\U0001F1FA\U0001F1F8 US 20 SSS"
   server: 38.68.134.9
@@ -203,55 +203,49 @@ proxies:
   password: RexnBgU7EV5ADxG
   cipher: aes-256-gcm
 - name: "\U0001F1FA\U0001F1F8 US 30 SSS"
-  server: 142.202.48.7
-  type: ss
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 3389
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: "\U0001F1F3\U0001F1F1 NL 31 SSS"
-  server: 172.99.188.99
-  type: ss
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 5001
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 32 SSS"
-  server: 38.68.134.9
-  type: ss
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 8000
-  password: KixLvKzwjekG00rm
-  cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 33 SSS"
   server: 38.114.114.143
   type: ss
   country: "\U0001F1FA\U0001F1F8US"
   port: 443
   password: pKEW8JPByTVTLtM
   cipher: aes-256-gcm
-- name: "\U0001F1F3\U0001F1F1 NL 34 SSS"
-  server: 172.99.188.99
+- name: "\U0001F1FA\U0001F1F8 US 31 SSS"
+  server: 38.68.134.9
   type: ss
   country: "\U0001F1FA\U0001F1F8US"
-  port: 2375
-  password: faBAoD54k87UJG7
+  port: 8000
+  password: KixLvKzwjekG00rm
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 35 SSS"
-  server: 142.202.48.7
+- name: "\U0001F1FA\U0001F1F8 US 32 SSS"
+  server: 38.68.134.9
   type: ss
   country: "\U0001F1FA\U0001F1F8US"
-  port: 2376
-  password: faBAoD54k87UJG7
+  port: 6379
+  password: zDNVedRFPQexG9v
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 36 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 33 SSS"
   server: 38.68.134.9
   type: ss
   country: "\U0001F1FA\U0001F1F8US"
   port: 3306
   password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
-- name: "\U0001F1F8\U0001F1EC SG 37 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 34 SSS"
+  server: 142.202.48.7
+  type: ss
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 3389
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: "\U0001F1F8\U0001F1EC SG 35 TJN"
+  server: 5.44.249.50
+  type: trojan
+  country: "\U0001F3C1ZZ"
+  port: 3306
+  password: faf42aa0a9ad4c1e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 36 TJN"
   server: 5.44.249.42
   type: trojan
   country: "\U0001F3C1ZZ"
@@ -259,18 +253,26 @@ proxies:
   password: 36fe28a331638747
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1F8\U0001F1EC SG 37 TJN"
+  server: 5.44.249.43
+  type: trojan
+  country: "\U0001F3C1ZZ"
+  port: 3306
+  password: 5227e84e4f026b71
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1EC\U0001F1E7 GB 1 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 2 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 3 SSS"
-  - "\U0001F1F2\U0001F1F0 MK 4 SSS"
-  - "\U0001F1F7\U0001F1FA RU 5 SSS"
-  - "\U0001F1F7\U0001F1FA RU 6 TJN"
-  - "\U0001F1F8\U0001F1EC SG 7 SSS"
-  - "\U0001F1F8\U0001F1EC SG 8 SSS"
+  - "\U0001F1F2\U0001F1F0 MK 2 SSS"
+  - "\U0001F1F7\U0001F1FA RU 3 SSS"
+  - "\U0001F1F7\U0001F1FA RU 4 TJN"
+  - "\U0001F1F8\U0001F1EC SG 5 SSS"
+  - "\U0001F1F8\U0001F1EC SG 6 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 7 SSS"
+  - "\U0001F1FA\U0001F1F8 US 8 SSS"
   - "\U0001F1FA\U0001F1F8 US 9 SSS"
   - "\U0001F1FA\U0001F1F8 US 10 SSS"
   - "\U0001F1FA\U0001F1F8 US 11 SSS"
@@ -281,7 +283,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 16 SSS"
   - "\U0001F1FA\U0001F1F8 US 17 SSS"
   - "\U0001F1FA\U0001F1F8 US 18 SSS"
-  - "\U0001F1FA\U0001F1F8 US 19 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 19 SSS"
   - "\U0001F1FA\U0001F1F8 US 20 SSS"
   - "\U0001F1FA\U0001F1F8 US 21 SSS"
   - "\U0001F1FA\U0001F1F8 US 22 SSS"
@@ -293,12 +295,12 @@ proxy-groups:
   - "\U0001F1F3\U0001F1F1 NL 28 SSS"
   - "\U0001F1FA\U0001F1F8 US 29 SSS"
   - "\U0001F1FA\U0001F1F8 US 30 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 31 SSS"
+  - "\U0001F1FA\U0001F1F8 US 31 SSS"
   - "\U0001F1FA\U0001F1F8 US 32 SSS"
   - "\U0001F1FA\U0001F1F8 US 33 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 34 SSS"
-  - "\U0001F1FA\U0001F1F8 US 35 SSS"
-  - "\U0001F1FA\U0001F1F8 US 36 SSS"
+  - "\U0001F1FA\U0001F1F8 US 34 SSS"
+  - "\U0001F1F8\U0001F1EC SG 35 TJN"
+  - "\U0001F1F8\U0001F1EC SG 36 TJN"
   - "\U0001F1F8\U0001F1EC SG 37 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
@@ -307,13 +309,13 @@ proxy-groups:
   proxies:
   - automatic
   - "\U0001F1EC\U0001F1E7 GB 1 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 2 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 3 SSS"
-  - "\U0001F1F2\U0001F1F0 MK 4 SSS"
-  - "\U0001F1F7\U0001F1FA RU 5 SSS"
-  - "\U0001F1F7\U0001F1FA RU 6 TJN"
-  - "\U0001F1F8\U0001F1EC SG 7 SSS"
-  - "\U0001F1F8\U0001F1EC SG 8 SSS"
+  - "\U0001F1F2\U0001F1F0 MK 2 SSS"
+  - "\U0001F1F7\U0001F1FA RU 3 SSS"
+  - "\U0001F1F7\U0001F1FA RU 4 TJN"
+  - "\U0001F1F8\U0001F1EC SG 5 SSS"
+  - "\U0001F1F8\U0001F1EC SG 6 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 7 SSS"
+  - "\U0001F1FA\U0001F1F8 US 8 SSS"
   - "\U0001F1FA\U0001F1F8 US 9 SSS"
   - "\U0001F1FA\U0001F1F8 US 10 SSS"
   - "\U0001F1FA\U0001F1F8 US 11 SSS"
@@ -324,7 +326,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 16 SSS"
   - "\U0001F1FA\U0001F1F8 US 17 SSS"
   - "\U0001F1FA\U0001F1F8 US 18 SSS"
-  - "\U0001F1FA\U0001F1F8 US 19 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 19 SSS"
   - "\U0001F1FA\U0001F1F8 US 20 SSS"
   - "\U0001F1FA\U0001F1F8 US 21 SSS"
   - "\U0001F1FA\U0001F1F8 US 22 SSS"
@@ -336,12 +338,12 @@ proxy-groups:
   - "\U0001F1F3\U0001F1F1 NL 28 SSS"
   - "\U0001F1FA\U0001F1F8 US 29 SSS"
   - "\U0001F1FA\U0001F1F8 US 30 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 31 SSS"
+  - "\U0001F1FA\U0001F1F8 US 31 SSS"
   - "\U0001F1FA\U0001F1F8 US 32 SSS"
   - "\U0001F1FA\U0001F1F8 US 33 SSS"
-  - "\U0001F1F3\U0001F1F1 NL 34 SSS"
-  - "\U0001F1FA\U0001F1F8 US 35 SSS"
-  - "\U0001F1FA\U0001F1F8 US 36 SSS"
+  - "\U0001F1FA\U0001F1F8 US 34 SSS"
+  - "\U0001F1F8\U0001F1EC SG 35 TJN"
+  - "\U0001F1F8\U0001F1EC SG 36 TJN"
   - "\U0001F1F8\U0001F1EC SG 37 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
